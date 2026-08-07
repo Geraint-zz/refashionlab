@@ -1,5 +1,4 @@
-import fs from "node:fs";
-import path from "node:path";
+import { generatedPosts } from "./generated-content";
 
 export type Post = {
   slug: string; title: string; seoTitle: string; summary: string; directAnswer: string;
@@ -8,7 +7,6 @@ export type Post = {
 export type Category = { slug: string; title: string; section: string; posts: Post[] };
 export type Section = { slug: string; title: string; description: string; categories: Category[] };
 
-const sourceRoot = path.join(process.cwd(), "content", "source", "beginner-refashion-lab-2026-08-05");
 const sectionOrder = ["sewing-foundations", "repair-and-refashion", "everyday-sewing-projects"];
 const sectionTitles: Record<string, [string, string]> = {
   "sewing-foundations": ["Sewing Foundations", "Begin with patterns, tools, and machine basics that make the next project feel possible."],
@@ -27,28 +25,8 @@ const categoryToSection: Record<string, string> = {
   "old-t-shirt-upcycling": "repair-and-refashion", "before-after-projects": "repair-and-refashion",
   "fabric-bags": "everyday-sewing-projects", "home-sewing": "everyday-sewing-projects",
 };
-function readJson<T>(file: string): T { return JSON.parse(fs.readFileSync(file, "utf8")) as T; }
-function metadataPath(category: string, slug: string) { return path.join(sourceRoot, "articles", category, slug, "article.json"); }
-function markdownPath(category: string, slug: string) { return path.join(sourceRoot, "articles", category, slug, "article.md"); }
 function assignedDate(index: number) { return new Date(Date.UTC(2026, 6, 28 + Math.floor(index / 5), 1, (index % 5) * 2)).toISOString(); }
-
-function loadPosts(): Post[] {
-  const rows: Post[] = [];
-  for (const category of fs.readdirSync(path.join(sourceRoot, "articles"))) {
-    const categoryPath = path.join(sourceRoot, "articles", category);
-    if (!fs.statSync(categoryPath).isDirectory()) continue;
-    for (const slug of fs.readdirSync(categoryPath)) {
-      const itemPath = path.join(categoryPath, slug);
-      if (!fs.statSync(itemPath).isDirectory()) continue;
-      const meta = readJson<{ title: string; seo_title: string; summary: string; direct_answer: string }>(metadataPath(category, slug));
-      rows.push({ slug, title: meta.title, seoTitle: meta.seo_title, summary: meta.summary, directAnswer: meta.direct_answer, section: categoryToSection[category], category, markdown: fs.readFileSync(markdownPath(category, slug), "utf8"), publishedAt: "", updatedAt: "" });
-    }
-  }
-  rows.sort((a, b) => sectionOrder.indexOf(a.section) - sectionOrder.indexOf(b.section) || a.category.localeCompare(b.category) || a.slug.localeCompare(b.slug));
-  return rows.map((post, index) => ({ ...post, publishedAt: assignedDate(index), updatedAt: assignedDate(index) }));
-}
-
-export const posts = loadPosts();
+export const posts: Post[] = [...generatedPosts].sort((a, b) => sectionOrder.indexOf(categoryToSection[a.category]) - sectionOrder.indexOf(categoryToSection[b.category]) || a.category.localeCompare(b.category) || a.slug.localeCompare(b.slug)).map((post, index) => ({ ...post, section: categoryToSection[post.category], publishedAt: assignedDate(index), updatedAt: assignedDate(index) }));
 export const sections: Section[] = sectionOrder.map((slug) => ({
   slug, title: sectionTitles[slug][0], description: sectionTitles[slug][1],
   categories: Object.keys(categoryToSection).filter((category) => categoryToSection[category] === slug).map((category) => ({ slug: category, title: categoryTitles[category], section: slug, posts: posts.filter((post) => post.category === category) })),
