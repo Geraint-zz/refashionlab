@@ -14,8 +14,8 @@
 
 ## Release
 
-- Release commit: pending static Pages adapter commit
-- Source push: pending
+- Release commit: `fc737cd35d06cc0f95ad05aa3cf540a76463e61d`
+- Source push: PASS
 - Saved version: 4
 - Deployment status: local adapter ready; awaiting Cloudflare automatic deployment
 - Deployment URL: https://refashionlab.geraintx.chatgpt.site
