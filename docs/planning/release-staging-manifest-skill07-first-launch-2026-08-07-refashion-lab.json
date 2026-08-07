@@ -15,6 +15,8 @@
   "release_scope": {
     "allowlist": [
       "src/data/posts.json",
+      "package.json",
+      "scripts/prepare-pages-static.mjs",
       "docs/planning/release-staging-manifest-skill07-first-launch-2026-08-07-refashion-lab.json"
     ],
     "blocked_patterns": [
@@ -31,6 +33,16 @@
         "path": "src/data/posts.json",
         "sha256": "4D618C2E8865FF93297D13152AB3723A502F6B7F09424C03591E75E8DF75D898",
         "reason": "Synchronize Admin projection image paths with optimized published assets"
+      },
+      {
+        "path": "package.json",
+        "sha256": null,
+        "reason": "Run the Cloudflare Pages static route export after the Vinext build"
+      },
+      {
+        "path": "scripts/prepare-pages-static.mjs",
+        "sha256": null,
+        "reason": "Generate root and route index files, sitemap, robots, and client assets for Pages output"
       },
       {
         "path": "docs/planning/release-staging-manifest-skill07-first-launch-2026-08-07-refashion-lab.json",
@@ -51,19 +63,29 @@
     "canonical_local": "PASS",
     "sitemap_robots_local": "PASS"
   },
+  "pages_static_adapter": {
+    "status": "PASS_LOCAL",
+    "build_command": "npm run build",
+    "output_directory": "dist",
+    "root_index": "dist/index.html",
+    "html_route_count": 68,
+    "sitemap": "dist/sitemap.xml",
+    "robots": "dist/robots.txt",
+    "worker_runtime": "not_required_for_static_content_routes"
+  },
   "deployment": {
     "github_repository": "https://github.com/Geraint-zz/refashionlab.git",
     "commit_push_authorized": true,
     "cloudflare_pages_project_input": "b8cc5d9",
     "cloudflare_pages_project_identity": "UNRESOLVED_COMMIT_REFERENCE",
     "formal_domain": "pending",
-    "automatic_deploy": "BLOCKED_CLOUDFLARE_CONFIGURATION_MISMATCH",
+    "automatic_deploy": "READY_FOR_AUTOMATIC_REDEPLOY",
     "pages_dev_url": "https://refashionlab.pages.dev/",
-    "pages_dev_parity": "FAIL_ALL_ROUTES_404",
-    "pages_dev_robots": "CLOUDFLARE_DEFAULT_ROBOTS_ONLY",
+    "pages_dev_parity": "PENDING_REDEPLOY",
+    "pages_dev_robots": "PENDING_REDEPLOY",
     "formal_domain_parity": "BLOCKED_FORMAL_DOMAIN_PENDING",
     "production_qa": "NOT_RUN"
   },
-  "final_status": "BLOCKED_CLOUDFLARE_CONFIGURATION_MISMATCH",
-  "next_gate": "Bind Cloudflare Pages to GitHub main commit 4c5f54e and provide formal domain, then rerun production DOM parity"
+  "final_status": "WAITING_FOR_CLOUDFLARE_AUTOMATIC_DEPLOYMENT",
+  "next_gate": "Push the static adapter commit, wait for Pages automatic deployment, then rerun pages.dev and formal-domain DOM parity"
 }

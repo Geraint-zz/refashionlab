@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vinext dev",
     "prebuild": "node scripts/generate-content-source.mjs",
-    "build": "vinext build",
+    "build": "vinext build && node scripts/prepare-pages-static.mjs",
     "start": "vinext start",
     "check": "node scripts/validate-data.mjs",
     "test": "npm run check && npm run build && node --test tests/rendered-html.test.mjs",

@@ -14,10 +14,10 @@
 
 ## Release
 
-- Release commit: `e6bb2fad341ee84d2737ee2921e2c00c9bdf0f43`
-- Source push: PASS
+- Release commit: pending static Pages adapter commit
+- Source push: pending
 - Saved version: 4
-- Deployment status: succeeded
+- Deployment status: local adapter ready; awaiting Cloudflare automatic deployment
 - Deployment URL: https://refashionlab.geraintx.chatgpt.site
 
 ## Production QA
@@ -30,12 +30,15 @@
 
 ## Final status
 
-`BLOCKED_CLOUDFLARE_CONFIGURATION_MISMATCH`
+`WAITING_FOR_CLOUDFLARE_AUTOMATIC_DEPLOYMENT`
 
 ## Cloudflare Pages QA
 
 - pages.dev: `https://refashionlab.pages.dev/`
-- Homepage and all checked application routes: 404
-- robots.txt: Cloudflare default robots response, not the site robots output
+- Root cause fixed locally: the Pages output now contains `dist/index.html` plus every known route index file.
+- The post-build adapter also copies client assets and writes the site `sitemap.xml` and `robots.txt`.
+- Local `validate-data`, `check`, and `build`: PASS
+- pages.dev: pending redeploy and production recheck
+- robots.txt: pending redeploy and production recheck
 - Formal domain: pending; parity not run
-- Cause: Cloudflare Pages project binding/automatic deployment is not confirmed
+- Next gate: precise commit/push, wait for Cloudflare automatic deployment, then rerun production DOM parity
