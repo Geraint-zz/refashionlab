@@ -1,0 +1,39 @@
+{
+  "content_time_policy_version": "site-factory-time-policy-v2",
+  "publish_base_date": "2026-08-07",
+  "publish_anchor_date": "2026-08-07",
+  "timezone": "Asia/Shanghai",
+  "site_timezone": "Asia/Shanghai",
+  "earliest_allowed_date": "2026-07-28",
+  "latest_allowed_publish_date": "2026-08-07",
+  "latest_allowed_datetime": "2026-08-07T23:59:59+08:00",
+  "anchor_backward_window_days": 10,
+  "schedule_direction": "from_window_start_forward",
+  "max_posts_per_day": 5,
+  "same_day_post_limit": 5,
+  "same_day_allowed_when_total_lte": 5,
+  "duplicate_timestamp_forbidden": true,
+  "same_timestamp_allowed": false,
+  "future_timestamp_forbidden": true,
+  "future_dates_allowed": false,
+  "initial_updated_equals_published": true,
+  "updated_at_default": "same_as_published_at",
+  "display_updated_only_when_later": true,
+  "updated_at_display_rule": "show_updated_only_when_later_than_published_at",
+  "incremental_prefer_after_latest": true,
+  "incremental_backfill_allowed": true,
+  "expected_article_count": 50,
+  "approved_post_schedule": {
+    "date_range": ["2026-07-28", "2026-08-06"],
+    "posts_per_day": 5,
+    "ordering": ["sewing-foundations", "repair-and-refashion", "everyday-sewing-projects"],
+    "timestamp_rule": "unique local timestamps within each date; no timestamp may be in the future at persistence time"
+  },
+  "value_sources": {
+    "publish_anchor_date": "user_input",
+    "timezone": "operator_timezone_context",
+    "article_count": "source_package",
+    "all_other_rules": "project_policy"
+  },
+  "validation_status": "PASS"
+}

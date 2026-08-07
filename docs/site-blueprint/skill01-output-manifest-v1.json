@@ -1,0 +1,490 @@
+﻿{
+    "schema_version":  "v1",
+    "skill_id":  "01",
+    "site_id":  "refashion_lab",
+    "archive_batch_id":  "beginner-refashion-lab-2026-08-05",
+    "capability_gates":  {
+                             "site_identity":  "PASS",
+                             "raw_content":  "PASS",
+                             "hierarchy":  "PASS",
+                             "seo_geo":  "PASS",
+                             "legal_trust":  "PASS",
+                             "content_time":  "PASS",
+                             "homepage_wireframe":  "PASS",
+                             "visual_source_lifecycle":  "PASS",
+                             "formal_domain":  "PASS",
+                             "skill01b_archive":  "PASS"
+                         },
+    "required_outputs":  [
+                             {
+                                 "output_id":  "OUT-01",
+                                 "path":  "docs/site-blueprint/01-site-blueprint-seo-geo-map-v1.md",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "0AB3E18FCC8413A539FA8436D9313B598FF76192B9F242F525E49015BE427224",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-02",
+                                 "path":  "prototypes/01-homepage-wireframe-v1.html",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "D7BD6243628DCAA8D8FE40860F0AD31B8BFD9B00BF15AD1E8F7903BDB62EE6CD",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-03",
+                                 "path":  "docs/planning/legal-pages-draft-v1.md",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "AA33BEF249AC15349D7D1E655C08528A8ACECBF4289FDE549372532A2A2EE40E",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-04",
+                                 "path":  "docs/planning/legal-pages-manifest-v1.json",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "E96DF105C262B6A3315FE5CD4B422965B2B478F394FBC7084E35B6C266B720AE",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-05",
+                                 "path":  "docs/planning/content-time-policy-v1.json",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "54E2DC3AFFA96D47F66EC1DD25DC7F1D15CA06A1811E108B7416A3AF81DAAF13",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-06",
+                                 "path":  "docs/site-blueprint/seo-geo-execution-manifest-v1.json",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "057F6FA63B63810906EB511B11D18A09565A72D052CE418E9F6B2E93A8CD6918",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-07",
+                                 "path":  "docs/site-blueprint/skill01-output-manifest-v1.json",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  null,
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-08",
+                                 "path":  "imports/raw-content/raw-content-original-manifest-v1.md",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  "27AB9D07FB8A24A0F610F0BC7896936CAA3DF4F3F533CFFB848F6926ED8C429F",
+                                 "status":  "PASS"
+                             },
+                             {
+                                 "output_id":  "OUT-09",
+                                 "path":  "imports/raw-content/original/",
+                                 "exists":  true,
+                                 "non_empty":  true,
+                                 "schema_valid":  null,
+                                 "metadata_consistent":  true,
+                                 "sha256":  null,
+                                 "status":  "PASS"
+                             }
+                         ],
+    "identity_consistent":  true,
+    "project_hardcoding_count":  0,
+    "capability_regression_count":  0,
+    "final_status":  "PASS",
+    "stage_handoff_gate":  {
+                               "artifact_persisted":  true,
+                               "codex_local_validation":  "PASS",
+                               "downstream_handoff_allowed":  true
+                           },
+    "artifact_storage_report":  {
+                                    "created_file_count":  9,
+                                    "created_bytes":  236922734,
+                                    "retained_file_count":  9,
+                                    "retained_bytes":  236922734,
+                                    "safe_deleted_file_count":  0,
+                                    "safe_deleted_bytes":  0,
+                                    "review_required_count":  0
+                                },
+    "operating_contract":  {
+                               "minimum_input_count":  5,
+                               "gpt_authored_outputs":  true,
+                               "codex_persistence_only":  true,
+                               "project_local_raw_archive":  true
+                           },
+    "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+    "artifact_entries":  [
+                             {
+                                 "artifact_id":  "skill01-001",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "docs/site-blueprint/01-site-blueprint-seo-geo-map-v1.md",
+                                 "artifact_type":  "md",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  4948,
+                                 "sha256":  "0AB3E18FCC8413A539FA8436D9313B598FF76192B9F242F525E49015BE427224",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-002",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "prototypes/01-homepage-wireframe-v1.html",
+                                 "artifact_type":  "html",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  2780,
+                                 "sha256":  "D7BD6243628DCAA8D8FE40860F0AD31B8BFD9B00BF15AD1E8F7903BDB62EE6CD",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-003",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "docs/planning/legal-pages-draft-v1.md",
+                                 "artifact_type":  "md",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  8535,
+                                 "sha256":  "AA33BEF249AC15349D7D1E655C08528A8ACECBF4289FDE549372532A2A2EE40E",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-004",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "docs/planning/legal-pages-manifest-v1.json",
+                                 "artifact_type":  "json",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  523,
+                                 "sha256":  "E96DF105C262B6A3315FE5CD4B422965B2B478F394FBC7084E35B6C266B720AE",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-005",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "docs/planning/content-time-policy-v1.json",
+                                 "artifact_type":  "json",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  1557,
+                                 "sha256":  "54E2DC3AFFA96D47F66EC1DD25DC7F1D15CA06A1811E108B7416A3AF81DAAF13",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-006",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "docs/site-blueprint/seo-geo-execution-manifest-v1.json",
+                                 "artifact_type":  "json",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  947,
+                                 "sha256":  "057F6FA63B63810906EB511B11D18A09565A72D052CE418E9F6B2E93A8CD6918",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-007",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "docs/site-blueprint/skill01-output-manifest-v1.json",
+                                 "artifact_type":  "json",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  1328,
+                                 "sha256":  null,
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-008",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "imports/raw-content/raw-content-original-manifest-v1.md",
+                                 "artifact_type":  "md",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  735,
+                                 "sha256":  "27AB9D07FB8A24A0F610F0BC7896936CAA3DF4F3F533CFFB848F6926ED8C429F",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             },
+                             {
+                                 "artifact_id":  "skill01-009",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "relative_path":  "imports/raw-content/original/beginner-refashion-lab-2026-08-05.rar",
+                                 "artifact_type":  "rar",
+                                 "lifecycle_status":  "REQUIRED_HANDOFF",
+                                 "cleanup_policy":  "keep_in_project",
+                                 "safe_to_delete_after":  "never",
+                                 "current_replacement":  null,
+                                 "referenced_by":  [
+                                                       "skill01-output-manifest-v1.json"
+                                                   ],
+                                 "size_bytes":  236901381,
+                                 "sha256":  "3D64CDD8419F4B699D8201B800363F1838547F46FC3EBD114509FD215DF0D182",
+                                 "created_at":  "2026-08-07T00:00:00+08:00",
+                                 "last_verified_at":  "2026-08-07T00:00:00+08:00",
+                                 "git_tracked":  false,
+                                 "formal_reference_count":  1,
+                                 "handoff_target":  "Skill 02/04/05",
+                                 "source_artifact_ids":  [
+
+                                                         ],
+                                 "reason":  "Approved Skill 01 authority artifact",
+                                 "notes":  [
+                                               "Generated from existing approved output; no strategy rewritten"
+                                           ]
+                             }
+                         ],
+    "cleanup_report_path":  "docs/planning/skill01-cleanup-report-skill01-repair-2026-08-07-refashion_lab.json",
+    "lifecycle_registry_path":  "docs/planning/artifact-lifecycle-registry-v1.json",
+    "lifecycle_contract_version":  "v1",
+    "output_path_contract_version":  "site-factory-output-path-contract-v1",
+    "output_path_evidence":  {
+                                 "output_path_contract_version":  "site-factory-output-path-contract-v1",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "skill_id":  "01",
+                                 "project_root":  "C:\\Users\\aoemo\\Documents\\Refashion",
+                                 "artifacts":  [
+                                                   {
+                                                       "artifact_id":  "skill01-001",
+                                                       "relative_path":  "docs/site-blueprint/01-site-blueprint-seo-geo-map-v1.md",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\docs\\site-blueprint\\01-site-blueprint-seo-geo-map-v1.md",
+                                                       "sha256":  "0AB3E18FCC8413A539FA8436D9313B598FF76192B9F242F525E49015BE427224",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-002",
+                                                       "relative_path":  "prototypes/01-homepage-wireframe-v1.html",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\prototypes\\01-homepage-wireframe-v1.html",
+                                                       "sha256":  "D7BD6243628DCAA8D8FE40860F0AD31B8BFD9B00BF15AD1E8F7903BDB62EE6CD",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-003",
+                                                       "relative_path":  "docs/planning/legal-pages-draft-v1.md",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\docs\\planning\\legal-pages-draft-v1.md",
+                                                       "sha256":  "AA33BEF249AC15349D7D1E655C08528A8ACECBF4289FDE549372532A2A2EE40E",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-004",
+                                                       "relative_path":  "docs/planning/legal-pages-manifest-v1.json",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\docs\\planning\\legal-pages-manifest-v1.json",
+                                                       "sha256":  "E96DF105C262B6A3315FE5CD4B422965B2B478F394FBC7084E35B6C266B720AE",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-005",
+                                                       "relative_path":  "docs/planning/content-time-policy-v1.json",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\docs\\planning\\content-time-policy-v1.json",
+                                                       "sha256":  "54E2DC3AFFA96D47F66EC1DD25DC7F1D15CA06A1811E108B7416A3AF81DAAF13",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-006",
+                                                       "relative_path":  "docs/site-blueprint/seo-geo-execution-manifest-v1.json",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\docs\\site-blueprint\\seo-geo-execution-manifest-v1.json",
+                                                       "sha256":  "057F6FA63B63810906EB511B11D18A09565A72D052CE418E9F6B2E93A8CD6918",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-007",
+                                                       "relative_path":  "docs/site-blueprint/skill01-output-manifest-v1.json",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\docs\\site-blueprint\\skill01-output-manifest-v1.json",
+                                                       "sha256":  null,
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-008",
+                                                       "relative_path":  "imports/raw-content/raw-content-original-manifest-v1.md",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\imports\\raw-content\\raw-content-original-manifest-v1.md",
+                                                       "sha256":  "27AB9D07FB8A24A0F610F0BC7896936CAA3DF4F3F533CFFB848F6926ED8C429F",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   },
+                                                   {
+                                                       "artifact_id":  "skill01-009",
+                                                       "relative_path":  "imports/raw-content/original/beginner-refashion-lab-2026-08-05.rar",
+                                                       "absolute_path":  "C:\\Users\\aoemo\\Documents\\Refashion\\imports\\raw-content\\original\\beginner-refashion-lab-2026-08-05.rar",
+                                                       "sha256":  "3D64CDD8419F4B699D8201B800363F1838547F46FC3EBD114509FD215DF0D182",
+                                                       "required_for_mode":  true,
+                                                       "lifecycle_status":  "CURRENT"
+                                                   }
+                                               ]
+                             },
+    "time_policy_contract":  {
+                                 "contract_version":  "site-factory-time-policy-v2",
+                                 "required_field_count":  12,
+                                 "validation_status":  "PASS",
+                                 "policy_path":  "docs/planning/content-time-policy-v1.json",
+                                 "policy_sha256":  "54E2DC3AFFA96D47F66EC1DD25DC7F1D15CA06A1811E108B7416A3AF81DAAF13",
+                                 "timestamp_change_count":  0
+                             },
+    "editorial_quality_profile":  {
+                                      "language":  "en-US",
+                                      "audience_level":  "beginner",
+                                      "faq_required_on_every_post":  false
+                                  },
+    "brand_asset_authority":  {
+                                  "brand_asset_mode":  "text_wordmark",
+                                  "favicon_policy":  "required_before_launch"
+                              }
+}

@@ -1,0 +1,126 @@
+﻿{
+    "schema_version":  "v1",
+    "project_root":  "C:\\Users\\aoemo\\Documents\\Refashion",
+    "site_id":  "refashion_lab",
+    "run_id":  "skill01b-final-2026-08-07-refashion_lab",
+    "final_status":  "SKILL01B_PERSISTENCE_PASS",
+    "artifacts":  [
+                      {
+                          "path":  "docs/site-blueprint/01-site-blueprint-seo-geo-map-v1.md",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  4948,
+                          "sha256":  "0AB3E18FCC8413A539FA8436D9313B598FF76192B9F242F525E49015BE427224",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "prototypes/01-homepage-wireframe-v1.html",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  2780,
+                          "sha256":  "D7BD6243628DCAA8D8FE40860F0AD31B8BFD9B00BF15AD1E8F7903BDB62EE6CD",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "docs/planning/legal-pages-draft-v1.md",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  8535,
+                          "sha256":  "AA33BEF249AC15349D7D1E655C08528A8ACECBF4289FDE549372532A2A2EE40E",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "docs/planning/legal-pages-manifest-v1.json",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  523,
+                          "sha256":  "E96DF105C262B6A3315FE5CD4B422965B2B478F394FBC7084E35B6C266B720AE",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "docs/planning/content-time-policy-v1.json",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  1557,
+                          "sha256":  "54E2DC3AFFA96D47F66EC1DD25DC7F1D15CA06A1811E108B7416A3AF81DAAF13",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "docs/site-blueprint/seo-geo-execution-manifest-v1.json",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  947,
+                          "sha256":  "057F6FA63B63810906EB511B11D18A09565A72D052CE418E9F6B2E93A8CD6918",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "docs/site-blueprint/skill01-output-manifest-v1.json",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  33128,
+                          "sha256":  "8380196FFE4DB37CB00ED42E2839396B272FD6C9336830AE99110A9D2337B438",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "imports/raw-content/raw-content-original-manifest-v1.md",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  700,
+                          "sha256":  "04A2B901092229C828A693B02B56310AD3B3CCA3BCF971C1F6FA3A8EB85564BB",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      },
+                      {
+                          "path":  "imports/raw-content/original/beginner-refashion-lab-2026-08-05.rar",
+                          "category":  "CURRENT",
+                          "created_by_skill":  "01B",
+                          "referenced_by":  [
+                                                "docs/planning/skill01b-persistence-report-2026-08-07-v3.json"
+                                            ],
+                          "size_bytes":  236901381,
+                          "sha256":  "3D64CDD8419F4B699D8201B800363F1838547F46FC3EBD114509FD215DF0D182",
+                          "recommended_action":  "KEEP",
+                          "reason":  "Validated Skill 01B authority artifact",
+                          "deleted":  false
+                      }
+                  ]
+}
