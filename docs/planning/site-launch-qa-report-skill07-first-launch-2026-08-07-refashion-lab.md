@@ -1,27 +1,33 @@
 # Skill 07 Launch QA
 
 - Run: skill07-first-launch-2026-08-07-refashion-lab
-- Project root: `C:\Users\aoemo\Documents\Refashion`
 - site_id: `refashion-lab`
 - Mode: `first_launch`
 
-## Upstream and local QA
+## Local QA
 
 - Skill 06 handoff: `PASS_ADMIN_IMPORT_QA`
 - Data/check/build: PASS
-- Visual identity gate: PASS; approved local source lock and Skill 04 visual confirmation present
-- Routes: homepage, Section, Category, Post, four Legal routes, sitemap, robots all reachable locally
-- Mobile widths 360/375/390/414: no horizontal overflow detected
-- Canonical host: `https://refashionlab.geraintx.chatgpt.site`
-- Local preview: `http://127.0.0.1:4322/`
+- Visual identity gate: PASS
+- Routes and four Legal pages: PASS
+- Mobile widths 360/375/390/414: PASS; no horizontal overflow
 
-## Release authorization gate
+## Release
 
-- GitHub repository: `https://github.com/Geraint-zz/refashionlab.git`
-- Git init/add/commit/push: NOT RUN; awaiting explicit push authorization
-- Cloudflare/Sites deployment: NOT RUN; awaiting explicit deployment authorization
-- Production QA: NOT RUN until a deployment exists
+- Release commit: `e6bb2fad341ee84d2737ee2921e2c00c9bdf0f43`
+- Source push: PASS
+- Saved version: 4
+- Deployment status: succeeded
+- Deployment URL: https://refashionlab.geraintx.chatgpt.site
 
-## Current status
+## Production QA
 
-`WAITING_FOR_PUSH_CONFIRMATION`
+- Homepage: 200 and correct refashionlab content
+- Section, Category, Post, About, Privacy Policy, Terms, User Agreement: PASS
+- Production canonical URLs: PASS on checked routes
+- robots.txt and sitemap.xml: PASS
+- Production access: owner-only private access retained
+
+## Final status
+
+`PASS_SITE_LAUNCH_COMPLETE`
