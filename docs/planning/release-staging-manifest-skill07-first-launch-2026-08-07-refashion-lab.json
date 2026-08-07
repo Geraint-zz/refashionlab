@@ -57,11 +57,13 @@
     "cloudflare_pages_project_input": "b8cc5d9",
     "cloudflare_pages_project_identity": "UNRESOLVED_COMMIT_REFERENCE",
     "formal_domain": "pending",
-    "automatic_deploy": "WAITING_FOR_CLOUDFLARE_CONFIGURATION",
-    "pages_dev_parity": "NOT_RUN",
+    "automatic_deploy": "BLOCKED_CLOUDFLARE_CONFIGURATION_MISMATCH",
+    "pages_dev_url": "https://refashionlab.pages.dev/",
+    "pages_dev_parity": "FAIL_ALL_ROUTES_404",
+    "pages_dev_robots": "CLOUDFLARE_DEFAULT_ROBOTS_ONLY",
     "formal_domain_parity": "BLOCKED_FORMAL_DOMAIN_PENDING",
     "production_qa": "NOT_RUN"
   },
-  "final_status": "WAITING_FOR_CLOUDFLARE_AUTOMATIC_DEPLOYMENT",
-  "next_gate": "Resolve Cloudflare Pages project identity and formal domain, then run pages.dev/formal-domain DOM parity"
+  "final_status": "BLOCKED_CLOUDFLARE_CONFIGURATION_MISMATCH",
+  "next_gate": "Bind Cloudflare Pages to GitHub main commit 4c5f54e and provide formal domain, then rerun production DOM parity"
 }

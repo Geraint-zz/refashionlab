@@ -30,4 +30,12 @@
 
 ## Final status
 
-`PASS_SITE_LAUNCH_COMPLETE`
+`BLOCKED_CLOUDFLARE_CONFIGURATION_MISMATCH`
+
+## Cloudflare Pages QA
+
+- pages.dev: `https://refashionlab.pages.dev/`
+- Homepage and all checked application routes: 404
+- robots.txt: Cloudflare default robots response, not the site robots output
+- Formal domain: pending; parity not run
+- Cause: Cloudflare Pages project binding/automatic deployment is not confirmed
