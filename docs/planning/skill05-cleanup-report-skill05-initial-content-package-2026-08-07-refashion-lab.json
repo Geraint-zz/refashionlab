@@ -1,0 +1,16 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab",
+  "inventory_count": 154,
+  "cleanup_preview_count": 1,
+  "exact_path_actions": [
+    {
+      "path": "content-prep/package-build",
+      "action": "RETAIN_TEMPORARY_UNTIL_SKILL06_HANDOFF",
+      "status": "PENDING"
+    }
+  ],
+  "safe_deleted_file_count": 0,
+  "review_required_count": 0,
+  "status": "PASS_NO_DESTRUCTIVE_CLEANUP"
+}

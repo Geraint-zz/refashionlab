@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "site_id": "refashion-lab",
+  "stage": "02_initial_visual_and_code_source",
+  "status": "PASS_CONTROLLED_EXCEPTION",
+  "decision": "Use the existing Vinext/Next local implementation as the authorized production code source under the user-approved local-build substitution.",
+  "visual_authority": "Skill 02 local-build visual lock",
+  "code_authority": "approved production source ZIP and normalized file manifest",
+  "source_identity_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46",
+  "constraints": [
+    "Do not claim Astro markers exist.",
+    "Do not silently substitute Stitch output.",
+    "Do not start downstream stages until the implementation review gate is approved."
+  ],
+  "ready_for_review": true
+}

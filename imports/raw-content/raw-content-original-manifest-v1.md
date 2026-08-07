@@ -1,7 +1,7 @@
-﻿# Raw Content Original Manifest
+# Raw Content Original Manifest
 
 ```yaml
-site_id: refashion_lab
+site_id: refashion-lab
 project_root: C:/Users/aoemo/Documents/Refashion
 archive_batch_id: beginner-refashion-lab-2026-08-05
 original_raw_content_source_path: C:/Users/aoemo/Documents/Article/content/site-content-material-package/beginner-refashion-lab-2026-08-05.rar

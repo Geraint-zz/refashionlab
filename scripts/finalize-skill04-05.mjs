@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=process.cwd();
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const p04=path.join(root,'docs/planning/04-skill-output-manifest-v1.json');
+const p05=path.join(root,'docs/planning/05-skill-output-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json');
+const m04=read(p04); m04.final_status='PASS_READY_FOR_SKILL_05'; m04.stage_handoff_gate.downstream_handoff_allowed=true; m04.orchestration.status='PASS'; m04.orchestration.stage_id='04_initial_content_preparation'; m04.orchestration.next_stage='05_initial_content_package'; m04.human_review.approved=true; m04.human_review.approval_phrase='确认 Skill 04 prepared content clean-ready，继续 Skill 05'; write(p04,m04);
+const m05=read(p05); m05.final_status='PASS_PACKAGE_READY_FOR_ADMIN_IMPORT'; m05.stage_handoff_gate.downstream_handoff_allowed=true; m05.orchestration.status='PASS'; m05.orchestration.stage_id='05_initial_content_package'; m05.orchestration.next_stage='06_initial_admin_import'; m05.orchestration.human_approval_refs=['docs/planning/skill04-media-review-summary-v1.md']; write(p05,m05);
+const cp={schema_version:'v1',site_id:'refashion-lab',mode:'skill04-05',current_stage:'06_initial_admin_import',state:'PASS_PACKAGE_READY_FOR_ADMIN_IMPORT',skill04_status:'PASS_READY_FOR_SKILL_05',skill05_status:'PASS_PACKAGE_READY_FOR_ADMIN_IMPORT',prepared_article_count:50,needs_review_count:0,package_built_locally:true,package_handoff_allowed:true,admin_upload_started:false,preview_started:false,apply_started:false,next_required_step:'Skill 06 admin import',package_path:'content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip'};
+write(path.join(root,'docs/planning/skill04-05-orchestration-checkpoint-v1.json'),cp); console.log(JSON.stringify(cp,null,2));

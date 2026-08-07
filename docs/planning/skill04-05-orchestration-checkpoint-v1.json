@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "site_id": "refashion-lab",
+  "mode": "skill04-05",
+  "current_stage": "06_initial_admin_import",
+  "state": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+  "skill04_status": "PASS_READY_FOR_SKILL_05",
+  "skill05_status": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+  "prepared_article_count": 50,
+  "needs_review_count": 0,
+  "package_built_locally": true,
+  "package_handoff_allowed": true,
+  "admin_upload_started": false,
+  "preview_started": false,
+  "apply_started": false,
+  "next_required_step": "Skill 06 admin import",
+  "package_path": "content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip"
+}

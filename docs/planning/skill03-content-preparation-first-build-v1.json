@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "skill_id": "03",
+  "site_id": "refashion-lab",
+  "stage": "04_initial_content_preparation",
+  "status": "PASS_CONTENT_PREPARED",
+  "content_authority": "Skill 01 CURRENT",
+  "counts": {
+    "sections": 3,
+    "categories": 10,
+    "posts": 50,
+    "legal_pages": 4
+  },
+  "schedule_anchor": "2026-08-07",
+  "schedule_policy": "docs/planning/content-time-policy-v1.json",
+  "content_source": "app/lib/generated-content.ts",
+  "validation": {
+    "data_check": "PASS",
+    "required_fields": "PASS",
+    "section_category_post_relations": "PASS",
+    "legal_routes": "PASS",
+    "canonical_sitemap_robots": "PASS"
+  },
+  "downstream_stage_started": false
+}

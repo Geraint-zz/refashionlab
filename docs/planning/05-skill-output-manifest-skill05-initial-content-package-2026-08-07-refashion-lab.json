@@ -1,0 +1,293 @@
+{
+  "schema_version": "v1",
+  "skill_id": "05",
+  "site_id": "refashion-lab",
+  "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab",
+  "execution_mode": "initial_content_package",
+  "preflight": {
+    "skill04_handoff_pass": true,
+    "prepared_content_found": true,
+    "output_manifest_found": true,
+    "content_time_policy_found": true,
+    "legal_manifest_found": true
+  },
+  "package_schema": {
+    "allowed_roots_valid": true,
+    "article_paths_valid": true,
+    "markdown_count": 50,
+    "article_count": 50,
+    "forbidden_root_count": 0
+  },
+  "content_validation": {
+    "sections": 3,
+    "categories": 10,
+    "articles": 50,
+    "slugs_unique": true,
+    "body_schema": "markdown",
+    "seo_geo_preserved": true,
+    "time_fields_preserved": true,
+    "legal_pages_verified": 4
+  },
+  "media_validation": {
+    "media_contract_version": "v2",
+    "media_root": "/assets/images/",
+    "featured_count": 50,
+    "closing_count": 50,
+    "inline_count": 0,
+    "missing_media_assignment": 0,
+    "manifest_matches_files": true,
+    "image_uniqueness_blocking_count": 0
+  },
+  "package_fingerprint": {
+    "zip_path": "content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip",
+    "outer_archive_sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A",
+    "normalized_file_count": 154,
+    "normalized_file_manifest_path": "content-prep/packages/package-file-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+    "normalized_file_manifest_sha256": "D155E27AD626F29D363F48C44AD03C9FDF398548C4AAF642C4DA5BAE75730EB2",
+    "total_uncompressed_bytes": 238341719
+  },
+  "outputs": [
+    {
+      "path": "content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A",
+      "size_bytes": 237735173,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "content-prep/packages/package-file-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "D155E27AD626F29D363F48C44AD03C9FDF398548C4AAF642C4DA5BAE75730EB2",
+      "size_bytes": 33659,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "content-prep/packages/package-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "CBF635C0A70CFAF6CB5BB8158ED870C02FECFB2E48B2A04F026B2D2FB5A332E8",
+      "size_bytes": 935,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "content-prep/packages/approved-slugs-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "C62E3BF8D08AB71D98651572ED6DC58AFADD179098FECD28D6FDB369E4D9B8A3",
+      "size_bytes": 7121,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "content-prep/packages/category-map-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "690C6E15FB8AE40D5C674FDF9C2492E7A3FE36EC4FD0200B1900215EBE38C775",
+      "size_bytes": 2868,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "content-prep/packages/media-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "A2D1DBFBA22C35B420B110B52C9FC23C2DB514140F66DA6E2CF7DAAFBCBD6695",
+      "size_bytes": 58405,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "content-prep/package-report-skill05-initial-content-package-2026-08-07-refashion-lab.md",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "0CDFCD407E19A0F9CDD191FBE7443DDFE033DEEBA2420D87EF03DCD42FB345DC",
+      "size_bytes": 765,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "docs/planning/skill05-cleanup-report-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "77AAE0F8A4959595744525DB2C6348D704DA309C01957276B90D7CB2E582BA25",
+      "size_bytes": 433,
+      "status": "CURRENT",
+      "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+    }
+  ],
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS",
+    "downstream_handoff_allowed": true
+  },
+  "artifact_storage_report": {
+    "created_file_count": 8,
+    "created_bytes": 237839359,
+    "retained_file_count": 8,
+    "retained_bytes": 237839359,
+    "safe_deleted_file_count": 0,
+    "safe_deleted_bytes": 0,
+    "review_required_count": 0,
+    "inventory_count": 154,
+    "cleanup_preview_count": 1,
+    "archived_count": 0,
+    "deleted_count": 0,
+    "skipped_count": 1,
+    "manual_review_count": 0,
+    "mixed_directory_finding_count": 0
+  },
+  "final_status": "PASS_PACKAGE_READY_FOR_ADMIN_IMPORT",
+  "operating_contract": {
+    "site_data_engineering": true,
+    "build_required": true,
+    "admin_package_required": true,
+    "unique_current_package": true
+  },
+  "lifecycle_contract_version": "v1",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "cleanup_report_path": "docs/planning/skill05-cleanup-report-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "contract_version": "site-factory-output-path-contract-v1",
+    "project_root": "C:\\Users\\aoemo\\Documents\\Refashion",
+    "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab",
+    "paths": [
+      {
+        "path": "content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A",
+        "size_bytes": 237735173,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "content-prep/packages/package-file-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "D155E27AD626F29D363F48C44AD03C9FDF398548C4AAF642C4DA5BAE75730EB2",
+        "size_bytes": 33659,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "content-prep/packages/package-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "CBF635C0A70CFAF6CB5BB8158ED870C02FECFB2E48B2A04F026B2D2FB5A332E8",
+        "size_bytes": 935,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "content-prep/packages/approved-slugs-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "C62E3BF8D08AB71D98651572ED6DC58AFADD179098FECD28D6FDB369E4D9B8A3",
+        "size_bytes": 7121,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "content-prep/packages/category-map-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "690C6E15FB8AE40D5C674FDF9C2492E7A3FE36EC4FD0200B1900215EBE38C775",
+        "size_bytes": 2868,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "content-prep/packages/media-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "A2D1DBFBA22C35B420B110B52C9FC23C2DB514140F66DA6E2CF7DAAFBCBD6695",
+        "size_bytes": 58405,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "content-prep/package-report-skill05-initial-content-package-2026-08-07-refashion-lab.md",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "0CDFCD407E19A0F9CDD191FBE7443DDFE033DEEBA2420D87EF03DCD42FB345DC",
+        "size_bytes": 765,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "docs/planning/skill05-cleanup-report-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "77AAE0F8A4959595744525DB2C6348D704DA309C01957276B90D7CB2E582BA25",
+        "size_bytes": 433,
+        "status": "CURRENT",
+        "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab"
+      }
+    ]
+  },
+  "media_role_contract": {
+    "contract_version": "site-factory-media-role-contract-v1",
+    "item_count": 100,
+    "featured_count": 50,
+    "closing_count": 50,
+    "inline_count": 0,
+    "missing_media_assignment": 0,
+    "manifest_path": "content-prep/packages/media-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json",
+    "manifest_sha256": "A2D1DBFBA22C35B420B110B52C9FC23C2DB514140F66DA6E2CF7DAAFBCBD6695",
+    "media_contract_version": "v2",
+    "media_root": "/assets/images/",
+    "validator_contract_version": "site-factory-validator-media-path-contract-v1"
+  },
+  "validator_media_path_validation": {
+    "contract_version": "site-factory-validator-media-path-contract-v1",
+    "status": "PASS",
+    "missing_media_assignment": 0,
+    "absolute_path_count": 0
+  },
+  "project_identity_evidence": {
+    "site_id": "refashion-lab",
+    "project_identity_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46",
+    "project_contract_version": "skill03-local-build-exception-v1",
+    "identity_status": "PASS",
+    "package_target_identity_match": true,
+    "preview_apply_identity_match": false,
+    "release_identity_match": false
+  },
+  "editorial_content_quality": {
+    "quality_status": "PASS",
+    "total_hits": 0
+  },
+  "semantic_quality_report_path": null,
+  "composite_content_quality_status": "COMPOSITE_CONTENT_QUALITY_PASS",
+  "orchestration": {
+    "orchestrator": "skill05",
+    "orchestrator_version": "149-v1",
+    "mode": "build_package",
+    "status": "PASS",
+    "stage_id": "05_initial_content_package",
+    "next_stage": "06_initial_admin_import",
+    "resume_token": "skill05-initial-content-package-2026-08-07-refashion-lab",
+    "input_identity": {
+      "skill04_run_id": "skill04-initial-content-preparation-2026-08-07-refashion-lab"
+    },
+    "output_identity": {
+      "zip_outer_sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A"
+    },
+    "human_approval_refs": [
+      "docs/planning/skill04-media-review-summary-v1.md"
+    ],
+    "skip_decisions": [
+      {
+        "stage": "admin_upload",
+        "decision": "not_run",
+        "reason": "Skill 05 boundary"
+      }
+    ]
+  }
+}

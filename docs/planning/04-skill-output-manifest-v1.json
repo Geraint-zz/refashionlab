@@ -1,0 +1,202 @@
+{
+  "schema_version": "v1",
+  "skill_id": "04",
+  "site_id": "refashion-lab",
+  "run_id": "skill04-initial-content-preparation-2026-08-07-refashion-lab",
+  "execution_mode": "initial_content_preparation",
+  "preflight": {
+    "skill01_blueprint_found": true,
+    "skill01_seo_geo_manifest_found": true,
+    "content_time_policy_found": true,
+    "skill04_data_contract_found": true,
+    "skill04_handoff_pass": true,
+    "original_raw_content_found": true
+  },
+  "content_summary": {
+    "source_article_count": 50,
+    "prepared_article_count": 50,
+    "ready_count": 50,
+    "warning_count": 0,
+    "needs_review_count": 0,
+    "unique_slug_count": 50,
+    "hierarchy_error_count": 0,
+    "seo_geo_error_count": 0,
+    "body_format_counts": {
+      "markdown": 50
+    }
+  },
+  "time_summary": {
+    "article_count": 50,
+    "unique_published_at_count": 50,
+    "future_dates_count": 0,
+    "same_timestamp_count": 0,
+    "invalid_updated_at_count": 0,
+    "capacity_status": "OK"
+  },
+  "legal_summary": {
+    "required_page_count": 4,
+    "ready_page_count": 4,
+    "placeholder_count": 0,
+    "irrelevant_clause_count": 0
+  },
+  "media_summary": {
+    "article_count": 50,
+    "featured_image_count": 50,
+    "closing_image_count": 50,
+    "prepared_image_count": 100,
+    "missing_referenced_image_count": 0,
+    "placeholder_count": 0,
+    "needs_review_count": 0
+  },
+  "outputs": [
+    {
+      "path": "imports/raw-content/current",
+      "exists": true,
+      "non_empty": true,
+      "status": "PASS"
+    },
+    {
+      "path": "imports/raw-content/raw-content-intake-manifest-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "status": "PASS"
+    },
+    {
+      "path": "content-prep/prepared-content",
+      "exists": true,
+      "non_empty": true,
+      "status": "PASS"
+    },
+    {
+      "path": "content-prep/time-generation-report-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "status": "PASS"
+    },
+    {
+      "path": "content-prep/time-generation-summary-v1.json",
+      "exists": true,
+      "non_empty": true,
+      "status": "PASS"
+    },
+    {
+      "path": "docs/planning/content-seo-geo-naming-package-report-v1.md",
+      "exists": true,
+      "non_empty": true,
+      "status": "PASS"
+    }
+  ],
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS",
+    "downstream_handoff_allowed": true
+  },
+  "artifact_storage_report": {
+    "created_file_count": 155,
+    "created_bytes": 238016441,
+    "retained_file_count": 151,
+    "retained_bytes": 238016441,
+    "safe_deleted_file_count": 0,
+    "safe_deleted_bytes": 0,
+    "review_required_count": 0,
+    "inventory_count": 264,
+    "cleanup_preview_count": 0,
+    "archived_count": 0,
+    "deleted_count": 0,
+    "skipped_count": 0,
+    "manual_review_count": 0,
+    "mixed_directory_finding_count": 0
+  },
+  "final_status": "PASS_READY_FOR_SKILL_05",
+  "operating_contract": {
+    "raw_source": "project_local_original_archive",
+    "seo_geo_authority": "skill01",
+    "legal_mode": "controlled_consistency_finalization",
+    "future_video_extensible": true
+  },
+  "lifecycle_contract_version": "v1",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "cleanup_report_path": "docs/planning/skill04-cleanup-report-skill04-initial-content-preparation-2026-08-07-refashion-lab.json",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "contract_version": "site-factory-output-path-contract-v1",
+    "project_root": "C:\\Users\\aoemo\\Documents\\Refashion",
+    "run_id": "skill04-initial-content-preparation-2026-08-07-refashion-lab",
+    "paths": [
+      {
+        "path": "imports/raw-content/current",
+        "exists": true,
+        "non_empty": true,
+        "status": "PASS"
+      },
+      {
+        "path": "imports/raw-content/raw-content-intake-manifest-v1.md",
+        "exists": true,
+        "non_empty": true,
+        "status": "PASS"
+      },
+      {
+        "path": "content-prep/prepared-content",
+        "exists": true,
+        "non_empty": true,
+        "status": "PASS"
+      },
+      {
+        "path": "content-prep/time-generation-report-v1.md",
+        "exists": true,
+        "non_empty": true,
+        "status": "PASS"
+      },
+      {
+        "path": "content-prep/time-generation-summary-v1.json",
+        "exists": true,
+        "non_empty": true,
+        "status": "PASS"
+      },
+      {
+        "path": "docs/planning/content-seo-geo-naming-package-report-v1.md",
+        "exists": true,
+        "non_empty": true,
+        "status": "PASS"
+      }
+    ]
+  },
+  "human_review": {
+    "contact_sheet_path": "docs/planning/skill04-contact-sheet-v1.png",
+    "summary_path": "docs/planning/skill04-media-review-summary-v1.md",
+    "caption_required": false,
+    "caption_empty_allowed": true,
+    "needs_review_count": 0,
+    "approval_phrase": "确认 Skill 04 prepared content clean-ready，继续 Skill 05",
+    "approved": true
+  },
+  "editorial_content_quality": {
+    "quality_status": "PASS",
+    "total_hits": 0,
+    "checks": {
+      "prompt_residue": 0,
+      "escaped_html": 0,
+      "object_rendering": 0,
+      "placeholders": 0
+    }
+  },
+  "semantic_quality_report_path": null,
+  "composite_content_quality_status": "COMPOSITE_CONTENT_QUALITY_PASS",
+  "orchestration": {
+    "orchestrator": "skill04",
+    "orchestrator_version": "149-v1",
+    "mode": "prepare_content",
+    "status": "PASS",
+    "stage_id": "04_initial_content_preparation",
+    "next_stage": "05_initial_content_package",
+    "resume_token": "skill04-initial-content-preparation-2026-08-07-refashion-lab",
+    "input_identity": {
+      "source_sha256": "3D64CDD8419F4B699D8201B800363F1838547F46FC3EBD114509FD215DF0D182"
+    },
+    "output_identity": {
+      "prepared_article_count": 50
+    },
+    "human_approval_refs": [],
+    "skip_decisions": []
+  }
+}

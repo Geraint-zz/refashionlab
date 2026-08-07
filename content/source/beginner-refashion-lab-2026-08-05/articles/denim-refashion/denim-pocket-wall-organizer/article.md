@@ -4,7 +4,7 @@
 
 Use a stable backing, stitch pockets flat before mounting, and reserve the organizer for light items rather than tools that could pull it down. This guide treats denim pocket wall organizer as a small, practical learning project rather than a test of speed or perfection. Work slowly, test on a scrap, and choose a finish that matches the actual use of the item. A modest first version teaches fabric behavior, measuring, stitching, and repair judgment without requiring a large supply purchase.
 
-![Opening image](opening.png)
+![Opening image](opening.jpg)
 
 ## Start with a realistic plan
 
@@ -26,7 +26,7 @@ Use a small scrap to practice the one action that matters most. It may be a stra
 
 Move from the stable center of the project toward the edges. Keep the fabric flat, guide it instead of pulling it, and pause after each seam to press or finger-press it open. Pressing helps seams sit where you intended and makes bulky areas easier to see before they become permanent. Use a seam ripper calmly when needed. Removing a short line of stitches is part of ordinary sewing practice and is usually faster than trying to hide a problem under extra layers.
 
-![Closing image](closing.png)
+![Closing image](closing.jpg)
 
 ## Step 4: Test the way it will be used
 

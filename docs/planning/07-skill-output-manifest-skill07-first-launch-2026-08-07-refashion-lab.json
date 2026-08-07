@@ -1,0 +1,218 @@
+{
+  "schema_version": "v1",
+  "skill_id": "07",
+  "site_id": "refashion-lab",
+  "execution_mode": "first_launch",
+  "run_id": "skill07-first-launch-2026-08-07-refashion-lab",
+  "upstream_handoff": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS_ADMIN_IMPORT_QA",
+    "downstream_handoff_allowed": true,
+    "final_status": "PASS_ADMIN_IMPORT_QA"
+  },
+  "visual_identity_gate": {
+    "approved_candidate_id_match": true,
+    "expected_logo_signature_match": true,
+    "expected_homepage_signature_match": true,
+    "expected_page_architecture_match": true,
+    "rejected_visual_signature_match_count": 0,
+    "skill04_user_visual_confirmation_present": true,
+    "result": "PASS"
+  },
+  "local_qa": {
+    "status": "PASS",
+    "reason": "Local launch QA completed; release authorization gate remains open."
+  },
+  "deployment": {
+    "status": "NOT_REQUESTED",
+    "github_repo": "https://github.com/Geraint-zz/refashionlab.git",
+    "push": "WAITING_FOR_PUSH_CONFIRMATION",
+    "cloudflare": "WAITING_FOR_DEPLOY_CONFIRMATION"
+  },
+  "production_qa": {
+    "status": "NOT_REQUESTED"
+  },
+  "outputs": [
+    {
+      "path": "docs/planning/site-launch-qa-report-skill07-first-launch-2026-08-07-refashion-lab.md",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "3018A695387DBB3F573ABA9B3108803A395ED88EF81CF2BC62400634EA221291",
+      "size_bytes": 648,
+      "status": "CURRENT",
+      "run_id": "skill07-first-launch-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "docs/planning/skill07-cleanup-report-skill07-first-launch-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "4980145695485EB0A2B1D3E01554F283E411CD125D6122D8ECB9F8A7D015E6DA",
+      "size_bytes": 274,
+      "status": "CURRENT",
+      "run_id": "skill07-first-launch-2026-08-07-refashion-lab"
+    },
+    {
+      "path": "docs/planning/orchestrator-handoff-07-skill07-first-launch-2026-08-07-refashion-lab.json",
+      "exists": true,
+      "non_empty": true,
+      "sha256": "A6C81E6C5C749CAA606D40F8539FCDAB6ED2521E322AE21CF4DEDC8AA1A32107",
+      "size_bytes": 415,
+      "status": "CURRENT",
+      "run_id": "skill07-first-launch-2026-08-07-refashion-lab"
+    }
+  ],
+  "stage_completion_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS_LOCAL_LAUNCH_QA",
+    "local_qa_pass": true,
+    "deployment_qa_pass_or_not_requested": false,
+    "user_launch_confirmation_recorded": false,
+    "launch_complete": false
+  },
+  "artifact_storage_report": {
+    "created_file_count": 3,
+    "created_bytes": 1337,
+    "retained_file_count": 3,
+    "retained_bytes": 1337,
+    "safe_deleted_file_count": 0,
+    "safe_deleted_bytes": 0,
+    "review_required_count": 0
+  },
+  "release_staging_manifest": {
+    "total_change_count": 0,
+    "classified_change_count": 0,
+    "unclassified_change_count": 0,
+    "release_allowed_files": [],
+    "release_blocked_files": [],
+    "review_required_files": [],
+    "staged_files": [],
+    "staged_file_count": 0,
+    "staged_matches_allowlist": false,
+    "missing_allowed_staged_count": 0,
+    "extra_staged_count": 0,
+    "forbidden_staged_count": 0,
+    "protected_data_diff_count": 0,
+    "protected_data_staged_count": 0,
+    "local_blocked_artifacts_present": true,
+    "local_blocked_artifacts_preserved": true,
+    "local_blocked_artifacts_block_commit": false,
+    "local_qa_pass": false,
+    "commit_authorization_received": false,
+    "commit_ready_for_user_approval": false,
+    "blocking_reasons": [
+      "BLOCKED_UPSTREAM_HANDOFF"
+    ]
+  },
+  "final_status": "WAITING_FOR_PUSH_CONFIRMATION",
+  "operating_contract": {
+    "github_repo_required": true,
+    "cloudflare_project_required": true,
+    "custom_domain_required": false,
+    "default_url_can_complete_launch": true
+  },
+  "cloudflare_authentication": {
+    "authentication_method": "dashboard_manual_evidence",
+    "authenticated": false,
+    "account_id": ""
+  },
+  "cloudflare_project_identity": {
+    "project_name": "",
+    "default_domain": "",
+    "repository_owner": "Geraint-zz",
+    "repository_name": "refashionlab",
+    "repository_match": false,
+    "production_branch": "",
+    "production_branch_match": false,
+    "project_identity_match": false
+  },
+  "cloudflare_build_configuration": {
+    "build_command": "",
+    "output_directory": "",
+    "root_directory": "",
+    "configuration_match": false
+  },
+  "cloudflare_deployment_identity": {
+    "deployment_id": "",
+    "environment": "",
+    "status": "NOT_RUN",
+    "branch": "",
+    "commit_sha": "",
+    "deployment_url": "",
+    "commit_matches_github_head": false
+  },
+  "cloudflare_project_lock": {
+    "path": ".openai/hosting.json",
+    "present": true,
+    "contains_secrets": false,
+    "live_query_revalidated": false
+  },
+  "lifecycle_contract_version": "v1",
+  "cleanup_report_path": "docs/planning/skill07-cleanup-report-skill07-first-launch-2026-08-07-refashion-lab.json",
+  "lifecycle_registry_path": "docs/planning/artifact-lifecycle-registry-v1.json",
+  "output_path_contract_version": "site-factory-output-path-contract-v1",
+  "output_path_evidence": {
+    "contract_version": "site-factory-output-path-contract-v1",
+    "project_root": "C:\\Users\\aoemo\\Documents\\Refashion",
+    "run_id": "skill07-first-launch-2026-08-07-refashion-lab",
+    "paths": [
+      {
+        "path": "docs/planning/site-launch-qa-report-skill07-first-launch-2026-08-07-refashion-lab.md",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "3018A695387DBB3F573ABA9B3108803A395ED88EF81CF2BC62400634EA221291",
+        "size_bytes": 648,
+        "status": "CURRENT",
+        "run_id": "skill07-first-launch-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "docs/planning/skill07-cleanup-report-skill07-first-launch-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "4980145695485EB0A2B1D3E01554F283E411CD125D6122D8ECB9F8A7D015E6DA",
+        "size_bytes": 274,
+        "status": "CURRENT",
+        "run_id": "skill07-first-launch-2026-08-07-refashion-lab"
+      },
+      {
+        "path": "docs/planning/orchestrator-handoff-07-skill07-first-launch-2026-08-07-refashion-lab.json",
+        "exists": true,
+        "non_empty": true,
+        "sha256": "A6C81E6C5C749CAA606D40F8539FCDAB6ED2521E322AE21CF4DEDC8AA1A32107",
+        "size_bytes": 415,
+        "status": "CURRENT",
+        "run_id": "skill07-first-launch-2026-08-07-refashion-lab"
+      }
+    ]
+  },
+  "git_delta_release_evidence": {
+    "status": "NOT_RUN_UPSTREAM_BLOCK"
+  },
+  "orchestration": {
+    "orchestrator": "skill04",
+    "orchestrator_version": "149-v1",
+    "mode": "first_launch",
+    "status": "BLOCKED",
+    "stage_id": "07_first_launch",
+    "next_stage": "06_initial_admin_import",
+    "resume_token": "skill07-first-launch-2026-08-07-refashion-lab",
+    "input_identity": {
+      "skill06_status": "BLOCKED_ADMIN_BINDING_MISMATCH"
+    },
+    "output_identity": {
+      "status": "BLOCKED_UPSTREAM_HANDOFF"
+    },
+    "human_approval_refs": [],
+    "skip_decisions": [
+      {
+        "stage": "git_push",
+        "decision": "not_run",
+        "reason": "No explicit push authorization and upstream block"
+      },
+      {
+        "stage": "cloudflare_deploy",
+        "decision": "not_run",
+        "reason": "No explicit deploy authorization and upstream block"
+      }
+    ]
+  }
+}

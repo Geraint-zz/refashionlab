@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "sewing-foundations",
+    "name": "Sewing Foundations",
+    "title": "Sewing Foundations",
+    "description": "Begin with patterns, tools, and machine basics that make the next project feel possible."
+  },
+  {
+    "slug": "repair-and-refashion",
+    "name": "Repair & Refashion",
+    "title": "Repair & Refashion",
+    "description": "Give worn clothes a practical second life through small repairs and thoughtful transformations."
+  },
+  {
+    "slug": "everyday-sewing-projects",
+    "name": "Everyday Sewing Projects",
+    "title": "Everyday Sewing Projects",
+    "description": "Make useful bags and home pieces from fabric you already have."
+  }
+]

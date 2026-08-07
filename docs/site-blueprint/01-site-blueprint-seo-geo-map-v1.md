@@ -4,7 +4,7 @@
 
 ```yaml
 skill_id: "01"
-site_id: "refashion_lab"
+site_id: "refashion-lab"
 site_name: "refashionlab"
 project_root: "C:/Users/aoemo/Documents/Refashion"
 primary_language: "en-US"

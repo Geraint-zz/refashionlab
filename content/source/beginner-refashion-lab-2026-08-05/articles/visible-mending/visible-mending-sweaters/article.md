@@ -4,7 +4,7 @@
 
 Stabilize the knit first, choose a thread with a compatible weight, and use relaxed stitches that preserve the sweater's stretch instead of pulling the fabric tight. This beginner guide keeps the project small, practical, and original. You do not need a studio full of supplies to begin. A calm workspace, a limited material choice, and the habit of testing on a scrap first will carry you further than an ambitious first attempt. The goal is to make something useful while learning how your fabric behaves.
 
-![Opening image](opening.png)
+![Opening image](opening.jpg)
 
 ## Why this project is worth trying
 
@@ -16,7 +16,7 @@ Gather only what the project needs: the item to be repaired or transformed, a wa
 
 ## Step 1: Define a modest finish
 
-Decide what “done” means before you start. For visible mending for sweaters, write a short finish line: the hole is supported, the bag can carry a light load, the hem lies flat, or the pouch closes smoothly. A clear finish prevents the common beginner habit of adding details before the base is strong. Put the item on a flat surface, take a simple before photo for your own reference, and mark the area that will change. Leave extra fabric whenever possible. You can trim later; you cannot easily add back a piece that was cut too small.
+Decide what 鈥渄one鈥?means before you start. For visible mending for sweaters, write a short finish line: the hole is supported, the bag can carry a light load, the hem lies flat, or the pouch closes smoothly. A clear finish prevents the common beginner habit of adding details before the base is strong. Put the item on a flat surface, take a simple before photo for your own reference, and mark the area that will change. Leave extra fabric whenever possible. You can trim later; you cannot easily add back a piece that was cut too small.
 
 ## Step 2: Test the technique on a scrap
 
@@ -26,7 +26,7 @@ Use a scrap from the same garment, a similar offcut, or an inside seam allowance
 
 Work from the strongest part of the material toward the edge. Support weak fabric with a patch, lining, interfacing, or a second layer only when it suits the item and care instructions. Keep seam allowances consistent and pause to press or finger-press each new seam. Pressing is not decorative: it helps you see whether a seam is twisting, whether corners are bulky, and whether a lining is sitting where it should. If a step begins to feel confusing, stop and compare the piece with the original plan before continuing.
 
-![Closing image](closing.png)
+![Closing image](closing.jpg)
 
 ## Step 4: Check function before decoration
 

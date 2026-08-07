@@ -1,0 +1,6 @@
+{
+  "schema_version": "v1-local-build-exception",
+  "site_id": "refashion-lab",
+  "rejected_visual_source_signatures": [],
+  "note": "No alternate candidate was supplied. Stitch was skipped by explicit user instruction; no unapproved alternate source has been mixed into the lock."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "v1",
+  "site_id": "refashion-lab",
+  "exception_type": "local_build_visual_source_substitution",
+  "user_instruction": "Skip Stitch and use the local website build instead",
+  "authorized": true,
+  "standard_stitch_candidate_required": false,
+  "source_type": "local_build",
+  "candidate_id": "local-build-refashionlab-v1",
+  "source_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46",
+  "approval_required_before_lock": true,
+  "ready_for_skill03": false,
+  "note": "This is an explicit workflow exception. It does not claim that the source is a standard Stitch export."
+}

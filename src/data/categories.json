@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "beginner-patterns",
+    "name": "Beginner Patterns",
+    "title": "Beginner Patterns",
+    "section": "sewing-foundations",
+    "description": ""
+  },
+  {
+    "slug": "sewing-tools",
+    "name": "Sewing Tools",
+    "title": "Sewing Tools",
+    "section": "sewing-foundations",
+    "description": ""
+  },
+  {
+    "slug": "sewing-machine-basics",
+    "name": "Sewing Machine Basics",
+    "title": "Sewing Machine Basics",
+    "section": "sewing-foundations",
+    "description": ""
+  },
+  {
+    "slug": "hand-sewing",
+    "name": "Hand Sewing",
+    "title": "Hand Sewing",
+    "section": "repair-and-refashion",
+    "description": ""
+  },
+  {
+    "slug": "visible-mending",
+    "name": "Visible Mending",
+    "title": "Visible Mending",
+    "section": "repair-and-refashion",
+    "description": ""
+  },
+  {
+    "slug": "denim-refashion",
+    "name": "Denim Refashion",
+    "title": "Denim Refashion",
+    "section": "repair-and-refashion",
+    "description": ""
+  },
+  {
+    "slug": "old-t-shirt-upcycling",
+    "name": "Old T-Shirt Upcycling",
+    "title": "Old T-Shirt Upcycling",
+    "section": "repair-and-refashion",
+    "description": ""
+  },
+  {
+    "slug": "before-after-projects",
+    "name": "Before & After Projects",
+    "title": "Before & After Projects",
+    "section": "repair-and-refashion",
+    "description": ""
+  },
+  {
+    "slug": "fabric-bags",
+    "name": "Fabric Bags",
+    "title": "Fabric Bags",
+    "section": "everyday-sewing-projects",
+    "description": ""
+  },
+  {
+    "slug": "home-sewing",
+    "name": "Home Sewing",
+    "title": "Home Sewing",
+    "section": "everyday-sewing-projects",
+    "description": ""
+  }
+]

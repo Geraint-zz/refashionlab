@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "skill_id": "03",
+  "site_id": "refashion-lab",
+  "stage": "03_initial_implementation",
+  "status": "AWAITING_HUMAN_CODE_UI_APPROVAL",
+  "source_authority": "docs/planning/skill03-bridge-local-build-v1.json",
+  "validation": {
+    "npm_test": "PASS",
+    "data_check": "PASS",
+    "production_build": "PASS",
+    "rendered_html_tests": "PASS_2_OF_2",
+    "mobile_and_desktop_screenshots": "AVAILABLE",
+    "legal_routes": "AVAILABLE",
+    "canonical_sitemap_robots": "AVAILABLE"
+  },
+  "review_targets": [
+    "homepage",
+    "section_routes",
+    "category_routes",
+    "post_routes",
+    "terms",
+    "privacy-policy",
+    "user-agreement",
+    "about"
+  ],
+  "human_gate": {
+    "required": true,
+    "reason": "Skill 03 requires explicit approval of the implementation source and local UI result before downstream content, admin, launch, or operations stages.",
+    "approval_phrase": "批准 Skill 03 第 03 阶段实现与本地 UI，继续执行后续状态机"
+  },
+  "downstream_stages_started": false
+}

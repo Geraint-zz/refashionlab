@@ -1,7 +1,7 @@
-﻿{
+{
     "schema_version":  "v1",
     "skill_id":  "01",
-    "site_id":  "refashion_lab",
+    "site_id":  "refashion-lab",
     "archive_batch_id":  "beginner-refashion-lab-2026-08-05",
     "capability_gates":  {
                              "site_identity":  "PASS",
@@ -131,11 +131,11 @@
                                "codex_persistence_only":  true,
                                "project_local_raw_archive":  true
                            },
-    "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+    "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
     "artifact_entries":  [
                              {
                                  "artifact_id":  "skill01-001",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "docs/site-blueprint/01-site-blueprint-seo-geo-map-v1.md",
                                  "artifact_type":  "md",
@@ -163,7 +163,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-002",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "prototypes/01-homepage-wireframe-v1.html",
                                  "artifact_type":  "html",
@@ -191,7 +191,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-003",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "docs/planning/legal-pages-draft-v1.md",
                                  "artifact_type":  "md",
@@ -219,7 +219,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-004",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "docs/planning/legal-pages-manifest-v1.json",
                                  "artifact_type":  "json",
@@ -247,7 +247,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-005",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "docs/planning/content-time-policy-v1.json",
                                  "artifact_type":  "json",
@@ -275,7 +275,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-006",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "docs/site-blueprint/seo-geo-execution-manifest-v1.json",
                                  "artifact_type":  "json",
@@ -303,7 +303,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-007",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "docs/site-blueprint/skill01-output-manifest-v1.json",
                                  "artifact_type":  "json",
@@ -331,7 +331,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-008",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "imports/raw-content/raw-content-original-manifest-v1.md",
                                  "artifact_type":  "md",
@@ -359,7 +359,7 @@
                              },
                              {
                                  "artifact_id":  "skill01-009",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "relative_path":  "imports/raw-content/original/beginner-refashion-lab-2026-08-05.rar",
                                  "artifact_type":  "rar",
@@ -386,13 +386,13 @@
                                            ]
                              }
                          ],
-    "cleanup_report_path":  "docs/planning/skill01-cleanup-report-skill01-repair-2026-08-07-refashion_lab.json",
+    "cleanup_report_path":  "docs/planning/skill01-cleanup-report-skill01-repair-2026-08-07-refashion-lab.json",
     "lifecycle_registry_path":  "docs/planning/artifact-lifecycle-registry-v1.json",
     "lifecycle_contract_version":  "v1",
     "output_path_contract_version":  "site-factory-output-path-contract-v1",
     "output_path_evidence":  {
                                  "output_path_contract_version":  "site-factory-output-path-contract-v1",
-                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion_lab",
+                                 "run_id":  "skill01-repair-v2-2026-08-07-refashion-lab",
                                  "skill_id":  "01",
                                  "project_root":  "C:\\Users\\aoemo\\Documents\\Refashion",
                                  "artifacts":  [

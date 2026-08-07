@@ -1,0 +1,710 @@
+{
+    "schema_version":  "v1",
+    "source_type":  "local_build_exception",
+    "source_zip":  "content-prep/skill03-approved-production-source-local-build-v1.zip",
+    "source_zip_sha256":  "ACD0013491098F71B4501DE36DEDB2158676907DE83935105B637D343DD4BE93",
+    "normalized_file_count":  140,
+    "normalized_file_manifest_sha256":  "0E3DC3BE8397A5390C95BDB872BC7FB2EF07CDF8AF64918F113DEB3E2311241C",
+    "files":  [
+                  {
+                      "path":  ".openai/hosting.json",
+                      "size_bytes":  91,
+                      "sha256":  "2D5D4846FC477EB8780757A9E2497ECB2FBD1014AC4FB4726E2434257506A1BB"
+                  },
+                  {
+                      "path":  "app/app/_components/ContentShell.tsx",
+                      "size_bytes":  923,
+                      "sha256":  "8EF2B91567D69BBB466529366C68704368DB777345192D848955409F85FBEF8E"
+                  },
+                  {
+                      "path":  "app/app/_components/LegalPage.tsx",
+                      "size_bytes":  459,
+                      "sha256":  "AB740BD64AF9F9E1BD686B045FDB8F7FA496DB4AF4D69E4C7AD0E7E504070A5A"
+                  },
+                  {
+                      "path":  "app/app/_sites-preview/preview.css",
+                      "size_bytes":  6306,
+                      "sha256":  "CB2F1A48EA619D71478E39C91A6FAF918DAF70E63DA2AA822B37E4C08DCACFFF"
+                  },
+                  {
+                      "path":  "app/app/_sites-preview/SkeletonPreview.tsx",
+                      "size_bytes":  5197,
+                      "sha256":  "4469DA8397AAF96553C22F7C48F03BFB8E4CB8639EB2A59B7B8209F82E7C5F47"
+                  },
+                  {
+                      "path":  "app/app/about/page.tsx",
+                      "size_bytes":  1176,
+                      "sha256":  "75A98B31CB305F707A59FFBE1ED2B918AB8F9A1E1F92253C982DB49C3E379F75"
+                  },
+                  {
+                      "path":  "app/app/category/[category]/page.tsx",
+                      "size_bytes":  1382,
+                      "sha256":  "F77A5482613A4E8F336BAA3D5DB555931F069A89363EADEBD22F8C609558423A"
+                  },
+                  {
+                      "path":  "app/app/chatgpt-auth.ts",
+                      "size_bytes":  2640,
+                      "sha256":  "E19651C2D1DB12696883AE3EB79D4F09DCE249F7AFA1144A62D544E2E18299CA"
+                  },
+                  {
+                      "path":  "app/app/globals.css",
+                      "size_bytes":  6172,
+                      "sha256":  "08216DC8D8556F5346A3C48897805E3370EF21C40B4F411A6A63D42E6296BEE3"
+                  },
+                  {
+                      "path":  "app/app/layout.tsx",
+                      "size_bytes":  872,
+                      "sha256":  "B9DB45A79EA85D44E5E4B53E866A5547D839EEE68ABAE7A01BD4399859673D6E"
+                  },
+                  {
+                      "path":  "app/app/lib/content.ts",
+                      "size_bytes":  3668,
+                      "sha256":  "84E589C574B4EC1B0749D83E0B19B9243D8B55C0919FDF80E44B3F093FFBD630"
+                  },
+                  {
+                      "path":  "app/app/lib/generated-content.ts",
+                      "size_bytes":  314388,
+                      "sha256":  "04A215DD4060A64530AD9E8CCA391206A1C276A5CB7483B320B6CA28DA4D5183"
+                  },
+                  {
+                      "path":  "app/app/page.tsx",
+                      "size_bytes":  5136,
+                      "sha256":  "6566A61BED7C401209365423688870D30C498C7F80671BDAFCA3FBFD1CBEEB34"
+                  },
+                  {
+                      "path":  "app/app/post/[post]/page.tsx",
+                      "size_bytes":  1441,
+                      "sha256":  "DA393772358866DC2511D49D0AA0682560A4A9A345525E18A6B6A95B541A5F33"
+                  },
+                  {
+                      "path":  "app/app/privacy-policy/page.tsx",
+                      "size_bytes":  1393,
+                      "sha256":  "62EE96F02611E225C03F13088BC706A0F7099BF854939146915F5934FA54CB9A"
+                  },
+                  {
+                      "path":  "app/app/robots.ts",
+                      "size_bytes":  236,
+                      "sha256":  "18FE65DF20263B9A0F0FD7B1369C36E06837B93AAF921C5702B7C29E8AA2B6C5"
+                  },
+                  {
+                      "path":  "app/app/section/[section]/page.tsx",
+                      "size_bytes":  1306,
+                      "sha256":  "D2F0D70CDF8A31EDB3C0EB3FAA95B2534789FDCD6F9648F55032CB17C918DDAB"
+                  },
+                  {
+                      "path":  "app/app/sitemap.ts",
+                      "size_bytes":  759,
+                      "sha256":  "75A8C4197C95F071433F8553751FDA6293B6C96538FE2E75BA90B550F8BC2142"
+                  },
+                  {
+                      "path":  "app/app/terms/page.tsx",
+                      "size_bytes":  1045,
+                      "sha256":  "1F50601AEAEE134C452CCD1D3D30358628B1F3970A6A17793753629B1D0BEF1E"
+                  },
+                  {
+                      "path":  "app/app/user-agreement/page.tsx",
+                      "size_bytes":  1110,
+                      "sha256":  "49ED6708541149E2F4FEA97B18D563728325E11625AA7D47E681C5985F72E103"
+                  },
+                  {
+                      "path":  "dist/dist/.openai/drizzle/meta/_journal.json",
+                      "size_bytes":  66,
+                      "sha256":  "5A5F57F8F48FCF1D065725C0F3DAB19E590E96E7E1E5BF8DDFF17339A0DE8D9A"
+                  },
+                  {
+                      "path":  "dist/dist/.openai/hosting.json",
+                      "size_bytes":  91,
+                      "sha256":  "2D5D4846FC477EB8780757A9E2497ECB2FBD1014AC4FB4726E2434257506A1BB"
+                  },
+                  {
+                      "path":  "dist/dist/client/.assetsignore",
+                      "size_bytes":  30,
+                      "sha256":  "14CE8D5101F6D8F172242053466D44F5E2CD622DEE81DB53C14BD445C25D1942"
+                  },
+                  {
+                      "path":  "dist/dist/client/.vite/manifest.json",
+                      "size_bytes":  4580,
+                      "sha256":  "71E73D7DEE5E29120DEEC24ABF67F2DFB1D4C90AD45D9807A6496761203FAC68"
+                  },
+                  {
+                      "path":  "dist/dist/client/_headers",
+                      "size_bytes":  131,
+                      "sha256":  "2148FB62669525F5091532D36D4A48A8DA95B08A5A797BACDE75D2FE981351BB"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-001175b1.woff2",
+                      "size_bytes":  16540,
+                      "sha256":  "58A6B173D5CA1DEC92166EA3C6CB1A84A4144556D10928AC14E8E6B40E4787BD"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-52306abf.woff2",
+                      "size_bytes":  7968,
+                      "sha256":  "F689F638F29FFF460A2D5749EDB5D5C38D7BEF0389F32032D871F23FC6EBB008"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-875ccdd4.woff2",
+                      "size_bytes":  14900,
+                      "sha256":  "6129FC8571C3E0CB0A4C41F5160C974A843B055009DC4AD8858BD808E18A2D86"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-98bbbccb.woff2",
+                      "size_bytes":  29288,
+                      "sha256":  "9B6F5FF45B278C744B5F379A2C4ECBAF858A842B8EAF82AC8D21B699CA16C608"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-8ac0455e797f/geist-ff2310f5.woff2",
+                      "size_bytes":  7252,
+                      "sha256":  "B7A545BBB08256BD809F11CFE66D88DA3E22D169EA4407737B1EF0EC1ED3D791"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-013b2f2f.woff2",
+                      "size_bytes":  23108,
+                      "sha256":  "5F3D6AD60F29D6CB708414EC6887163D63BF197377EF5417D2483FF31ACE6C3B"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-0638449e.woff2",
+                      "size_bytes":  5892,
+                      "sha256":  "D67E4A94BA498635F764DDCA7D1EC4271F5642F032EB24B426764480F66F8497"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-44745446.woff2",
+                      "size_bytes":  14712,
+                      "sha256":  "745994B5CD950EC201B66526375F057D540847CCCFC70F4F24F5F571D26D3923"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-44e03052.woff2",
+                      "size_bytes":  12872,
+                      "sha256":  "75B3BEDBEBC35F347C0AE3B416AA871941555357E7B0F83767EB5987875589ED"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-971fb274.woff2",
+                      "size_bytes":  7728,
+                      "sha256":  "16E1D48B6DD29EB240AEC5DB36184EB182933C082CD43DE7F35AF686D58087D2"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/_vinext_fonts/geist-mono-00e989178794/geist-mono-f6b33328.woff2",
+                      "size_bytes":  6204,
+                      "sha256":  "E27F657E38D52887BAA3B6B2F812BEF93DFDD356F0810E40EDD4EE284CC7E9F6"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/app-elements-Drg5O4vw.js",
+                      "size_bytes":  12170,
+                      "sha256":  "499F929A60EA49B01360A43EE9E077E7B6782CFF680FE31828004D3DCB4D5D8E"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/app-rsc-cache-busting-DKGTolH1.js",
+                      "size_bytes":  4802,
+                      "sha256":  "27977A28487730D841FB921012B67D9465F154FD445FD3C0C134CFE10AAA2943"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/app-rsc-render-mode-IDJu5NEE.js",
+                      "size_bytes":  554,
+                      "sha256":  "7E508AF04FCB0B0A8B22087391D526A3F269843398D0926E9B4B24A017EAA9B3"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/deployment-id-DFhHa9wO.js",
+                      "size_bytes":  97,
+                      "sha256":  "CFF727C88395E970914FE0FD68F0D2F78C51DC9EC13C7B6E6DB8E5104ECB240B"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/framework-BaE7mD_r.js",
+                      "size_bytes":  190152,
+                      "sha256":  "A8E611453A742BF422100CC5F20F7F4139295740492196303A191D9F17033206"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/hash-D0ldriCF.js",
+                      "size_bytes":  256,
+                      "sha256":  "FBA69692645D8206561E12EDF1653F0F7931D0F14F8F753EC3BE5031DFD004D1"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/headers-CeAbe3am.js",
+                      "size_bytes":  2957,
+                      "sha256":  "05E0CAB328B2537A4A930A9EA0D33899FB67D464F9306393F9FAA796D36F4202"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/hybrid-client-route-owner-SWAkdXlu.js",
+                      "size_bytes":  19265,
+                      "sha256":  "0771A37F5E01F59BACB16AD9BE0948565A97874CAFFE563B2E1011E1DD0DEB17"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/index-Cy-wH818.js",
+                      "size_bytes":  169000,
+                      "sha256":  "CB5428CB1CB9715F5C84079A1747977F6CE779D3338750375D54641C1F381B3D"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/layout-segment-context-GrAokXJI.js",
+                      "size_bytes":  534,
+                      "sha256":  "29F7841260A02E3347F5935C3DDA6FE27E9C12FE130470A929A9C2FBFF580EA6"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/link-DqvfdbMq.js",
+                      "size_bytes":  14217,
+                      "sha256":  "23FD699BB5F6DF5919357F55C7B2A01D45E162841795001A24166D60B428D4C6"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/navigation-errors-wvgRKjB-.js",
+                      "size_bytes":  4040,
+                      "sha256":  "6CB85C8C7806319F3726097C860A81B50A0ACE7041CEF2F2DEA091C2E43F3BD6"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/protocol-headers-URL33uU5.js",
+                      "size_bytes":  291,
+                      "sha256":  "4F20204CD6CDEC88967A8F7BB8A43F858D40408B81AA0CA272F851266DA72FB4"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/query-DWOJKAZx.js",
+                      "size_bytes":  984,
+                      "sha256":  "0A1973F3C6175C2655DA2D796C0B590A07352EE8C22AED1A49CD90513FA34B02"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/record-BdkTR7AP.js",
+                      "size_bytes":  79,
+                      "sha256":  "B9BDB7B7D0E4844D241DBA61104D18111D61EF92AF3F137D15749531D276F9CF"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+                      "size_bytes":  694,
+                      "sha256":  "5DB5BA82EEF00D1DEE7E86E663098C9427D01183A88D357437DAFF295AEC3E75"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/css/index.B1Fu3pXz.css",
+                      "size_bytes":  13372,
+                      "sha256":  "21CA1ED9A9FB454489C177BC0103376D17A929FCE3B6414C8D851ACF196B85B9"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/e9f9e96b-04a5-4d77-be36-867a22723dd7/_buildManifest.js",
+                      "size_bytes":  159,
+                      "sha256":  "47F02B34BE6DC481257B6EFCE4C19E19111F37EF5C437F8FFED44F0DA97FA9BB"
+                  },
+                  {
+                      "path":  "dist/dist/client/_next/static/e9f9e96b-04a5-4d77-be36-867a22723dd7/_ssgManifest.js",
+                      "size_bytes":  76,
+                      "sha256":  "653F3E53E89B4F8548FF86C19E92BB3C6B84B6BE7485A320B1E00893ED877479"
+                  },
+                  {
+                      "path":  "dist/dist/client/favicon.svg",
+                      "size_bytes":  718,
+                      "sha256":  "3E8863288C2D43DD33D2A71DE317DCF9198F09932EA8D61E0DEF1B846A865435"
+                  },
+                  {
+                      "path":  "dist/dist/client/file.svg",
+                      "size_bytes":  393,
+                      "sha256":  "81A9CE5CA9BC60870C1D72C0FD5B98B2BC5C8C02B0E04FEFEAB9EFCC11277228"
+                  },
+                  {
+                      "path":  "dist/dist/client/globe.svg",
+                      "size_bytes":  1037,
+                      "sha256":  "13187C071B4D369DF3A7A179F69A927165BF624E1A524EE6C93B7D3BE75D6FC8"
+                  },
+                  {
+                      "path":  "dist/dist/client/vinext-client-entry-manifest.json",
+                      "size_bytes":  65,
+                      "sha256":  "8F0C83119954880D752A6AC49925EB696C99247F6EF8C90A3DD0B6BB20687698"
+                  },
+                  {
+                      "path":  "dist/dist/client/window.svg",
+                      "size_bytes":  387,
+                      "sha256":  "D3CD4BF0C1123258FCC266409856E28C93D4FC1CF8476702225E17842900CA63"
+                  },
+                  {
+                      "path":  "dist/dist/server/.vite/manifest.json",
+                      "size_bytes":  15402,
+                      "sha256":  "D882E4A5BFF79C8D8178498430DFF081DAA1BD8504E60D9B2062C246A9D62556"
+                  },
+                  {
+                      "path":  "dist/dist/server/__vite_rsc_assets_manifest.js",
+                      "size_bytes":  5704,
+                      "sha256":  "E9AD93D3EC24ED3B0EF6FF0EE6278F12F55490E3437C1B154A9880BECEC6DF55"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/als-registry-gxzH8yKA.js",
+                      "size_bytes":  354,
+                      "sha256":  "7BBF58795B072D3F3E5520A481B71A0B5650B3B0FF2341AD192719D7890E13AB"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-elements-CVhOGb5R.js",
+                      "size_bytes":  42070,
+                      "sha256":  "C3CADDAA9E9AD6925E9C7C58F98A64A357DB9937A05A062FCA9E84B7E27A4459"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-page-cache-BbcC_5S4.js",
+                      "size_bytes":  4904,
+                      "sha256":  "A6755ECD3F1A724A4873462E1828C9DBC570ECDEDC4CAC0D4E39AD030A33DAEB"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-page-cache-finalizer-CQ6hyp6x.js",
+                      "size_bytes":  5483,
+                      "sha256":  "756865022494063DDD204ED076A9E81C7126A7E6593A6E9B46D1AD57B2C9F34B"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-page-cache-render-yDM3Hw6E.js",
+                      "size_bytes":  1907,
+                      "sha256":  "8D8EE28E67EFA451502747F8ECBD804B6AC7C428E8AB05DF57E5A54074DAC204"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-page-stream-CIDeYL7_.js",
+                      "size_bytes":  10082,
+                      "sha256":  "86573CD7E233152FC938F96E8CD7711EF99BBA7E64EF15AC62EBE65624B97DBB"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-prerender-endpoints-fJW7B2Oe.js",
+                      "size_bytes":  2021,
+                      "sha256":  "47E1AC03EDD549D10E9409195B2D64291E8C0E0D74E2561085027CCE36BD4028"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-prerender-static-params-Cvj-ZYse.js",
+                      "size_bytes":  1118,
+                      "sha256":  "3658321252F57183F3D09224792112C0391BF52DE6D3DC27F84153B30CF80C8D"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-route-handler-dispatch-wwcY_7Ej.js",
+                      "size_bytes":  26161,
+                      "sha256":  "4BB8B5C6AF23BF388054212D75CF05B78E85B843DD364927CD71852584C4121C"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-segment-config-sriOtr7i.js",
+                      "size_bytes":  9440,
+                      "sha256":  "FF93574972490C037BAB524C8ABF02501CB3F8BA5D5D8BCBD2456C7BFC33FB46"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/app-static-generation-BF6bMvvk.js",
+                      "size_bytes":  916,
+                      "sha256":  "71451721AE4A42108E9ED32567CD9D9861BEB4952215B0FD57FFC373CD3EDC01"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/base-path-7wmUKVfF.js",
+                      "size_bytes":  315,
+                      "sha256":  "AEC215E6D7CFAFE5B43A6150A977F725E0A1B151093C3395CF1CF47969A2A750"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/content-BfYOHaJc.js",
+                      "size_bytes":  310574,
+                      "sha256":  "4D84114AEC164E865A203182E1D42304BD7D0486FCECA7186BF8A46FFE603CBB"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/ContentShell-BcIkjmzT.js",
+                      "size_bytes":  1495,
+                      "sha256":  "C2A53A7A515069205FDD9D80E65E809E9ACCA81FC9924D01F742A8B3B65ED80A"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/css/index.B1Fu3pXz.css",
+                      "size_bytes":  13372,
+                      "sha256":  "21CA1ED9A9FB454489C177BC0103376D17A929FCE3B6414C8D851ACF196B85B9"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/dist-CKORipWO.js",
+                      "size_bytes":  1590,
+                      "sha256":  "E00694B49CBB60EED839A37EF37A493808A552B6265BBAF4A7B60880518EE109"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/file-based-metadata-DeKCu32q.js",
+                      "size_bytes":  6756,
+                      "sha256":  "62A4669A219B8595E2326CAF30A63F4FA8F994AF86E3B94BBA296840288A4E75"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/framework~index~page~page~layout~page~page~page~page~page~page~app-page-cache-render~app-pa~fko7bm0t-CUyp8Jco.js",
+                      "size_bytes":  6125,
+                      "sha256":  "C57D6BF2A1F6372F8DFA8908F35593DCC3D6B51950F35F0391801A6BAABD8B13"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/framework~index~page~page~page~page~page~page~page~app-route-handler-dispatch-BMg-Xms0.js",
+                      "size_bytes":  56622,
+                      "sha256":  "6830EB249A98C18951209F74A2AC5319E23E30FE268898016EED3836603BFDBF"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/framework~index-pwNCGJOe.js",
+                      "size_bytes":  220,
+                      "sha256":  "743F1C36D8B8D063B1E492E46811B11A18E720E4FC6F3A854C4A118B53392AB1"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/http-error-responses-DGG85MW8.js",
+                      "size_bytes":  455,
+                      "sha256":  "031C40213D4584A8BBB58E0A63B3A1174BCF8B89AE251149BA54C87E3D1153CD"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/implicit-tags-C1KTS21a.js",
+                      "size_bytes":  1028,
+                      "sha256":  "9CD156F4878429FEE1C47961F96F4D2421A2DA42BD7427880675E87E10B06046"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/instrumentation-AnwFpxtG.js",
+                      "size_bytes":  407,
+                      "sha256":  "1A30F0090F54EA1A1ADB097DCBE949D5CF1907BD441111EA3FB3C74B8636B86A"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/LegalPage-BBJmpdpi.js",
+                      "size_bytes":  594,
+                      "sha256":  "F32939F6CBC7ECF6EE660538F047D53D17180DC962CA4EAD4BF6CDF067BEFF24"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/metadata-route-response-tX2jpdmQ.js",
+                      "size_bytes":  4897,
+                      "sha256":  "913A0D08115A7CA7ECB9CFEFC9CFF6BBA4C227E7B7FD44C7B50A57745AB84543"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/metadata-routes-L4huRys8.js",
+                      "size_bytes":  4166,
+                      "sha256":  "F001B2728C8A6C22B561949EC6CAB4517EDC06FC169E7052C663FE92CEE8C6D6"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/navigation.react-server-D5VV7v_W.js",
+                      "size_bytes":  262,
+                      "sha256":  "55A4D0029519DAC9400F0713C97243951A3C37F65B2BFAD4018FCFC099549941"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/navigation-errors-D00BgErK.js",
+                      "size_bytes":  1427,
+                      "sha256":  "EFA3A7E842A0599554D8043B412EF17E572BB246F2FE3CE8158E9FDCE525E9A9"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/navigation-runtime-B-KhqXtG.js",
+                      "size_bytes":  802,
+                      "sha256":  "914A725FEBED506434207BB8441D5137B108DDA73C06F336C879A4CEA953AFD9"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-B7B_Gqc8.js",
+                      "size_bytes":  1093,
+                      "sha256":  "8689B21E79B8AC1DA8F708C3E6A7229051DAE2E86D3C79BD67272EF2C0523187"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-BbtuU3-6.js",
+                      "size_bytes":  1224,
+                      "sha256":  "7D92B2BE677B305913256FA83EAD80C225F2EC37B4007DDDC20EA9E3FC9C2778"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-CFZ2B1po.js",
+                      "size_bytes":  1437,
+                      "sha256":  "F84A01D517FD9D492879073D8C4EF72ABB1AC39EA5F0EDAB8B785B521E736252"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-C-hsPPG2.js",
+                      "size_bytes":  6530,
+                      "sha256":  "CEBD5FE4A6D484E025FD1E4C4CF70F6DF561D459CD30E5F3F189F578A6A7AB98"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-CmqNgmR1.js",
+                      "size_bytes":  1150,
+                      "sha256":  "90871DDA72B1DAA67FD1D8E233F26320202264A081C4FBF66A81C3D508E16595"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-COeg2bpe.js",
+                      "size_bytes":  1229,
+                      "sha256":  "62F6C59542EEEEA3A3D150F16D34469524732527DD796E2936EA43BC7BC20926"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-CpPlJZuS.js",
+                      "size_bytes":  1279,
+                      "sha256":  "2F0DF153820F82B6DC9D5ACA6CDA1ED721A4B29409D606BE11D3C51BBF7BF24E"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/page-CWRSnipv.js",
+                      "size_bytes":  1402,
+                      "sha256":  "5EE743CE009B5CBAAF6F99AD818BFDFED119AD724AE4F38CE8FF82BE1CC00857"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/ppr-fallback-shell-Bkq3V_aa.js",
+                      "size_bytes":  2060,
+                      "sha256":  "8628F1526823F41AAE7F0C74E7AA74BC06DB4A81F29CF060C36DD5D92F85FAB1"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/record-CTWFt0Y8.js",
+                      "size_bytes":  2616,
+                      "sha256":  "470EBA43ED9D8B3631DC9580C824BEFE2960D45307CE59B2FB2E8B82BA9756F7"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/redirect-digest-x5mH93OF.js",
+                      "size_bytes":  377,
+                      "sha256":  "B92EC9AA7C6DCD33CFBE31E79016B8E95E069DB3104601E782C0EAB8AA9D331B"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/rolldown-runtime-DUnMT5BP.js",
+                      "size_bytes":  694,
+                      "sha256":  "5DB5BA82EEF00D1DEE7E86E663098C9427D01183A88D357437DAFF295AEC3E75"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/root-params-KATNKTqD.js",
+                      "size_bytes":  644,
+                      "sha256":  "FF285B1B4B7A236BED4F62FA34352A800DB38B7C91EDCFBA088B8624F5C11B66"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/route-pattern-BeRR8lt7.js",
+                      "size_bytes":  1925,
+                      "sha256":  "B97EE514B4A8CA4A500D3883A0A59E4C2AB7F88263A19D623879A1F3067163D0"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/rsc-unOFbxh7.js",
+                      "size_bytes":  755,
+                      "sha256":  "124B7928CC48DF20D1B132FC6FD59FC3A0BE00D676FD081C111397331BF3269D"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/text-stream-BYaBmtF0.js",
+                      "size_bytes":  19022,
+                      "sha256":  "BA02B13F12C11B84C9B6BB7BD3E58245EBF21DAE45DF1A7D90122AC278446205"
+                  },
+                  {
+                      "path":  "dist/dist/server/_next/static/thenable-params-Bd-DAm19.js",
+                      "size_bytes":  2405,
+                      "sha256":  "B827B4410AF316D817DD814C334C560DF970DA8F9C1D18D911E78F19CEAD5604"
+                  },
+                  {
+                      "path":  "dist/dist/server/BUILD_ID",
+                      "size_bytes":  36,
+                      "sha256":  "C6B99FEDEBBD7E9BB34E69587853DA0C5A6141CE2E8E8AA409268FE166239A99"
+                  },
+                  {
+                      "path":  "dist/dist/server/index.js",
+                      "size_bytes":  188779,
+                      "sha256":  "9A6A2432E0C62FDFB9039AB21E46AFA1B1151DC810FC9E770D57D1B5768BE949"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/__vite_rsc_assets_manifest.js",
+                      "size_bytes":  5704,
+                      "sha256":  "E9AD93D3EC24ED3B0EF6FF0EE6278F12F55490E3437C1B154A9880BECEC6DF55"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/app-nav-failure-handler-JUk_EqPD.js",
+                      "size_bytes":  72,
+                      "sha256":  "F6A9D62FB9873F70236C9C3EB21337FA5337DF87F170DCB04565DAEFFB5F2F62"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/app-prefetch-fetch-queue-BiCJWNaj.js",
+                      "size_bytes":  0,
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/app-router-scroll-C9kviYc7.js",
+                      "size_bytes":  2135,
+                      "sha256":  "6A4895B1B7BB6BBAF47C72C90DA5DF19AD8330FB79CCC430530A9FA85FF4DC34"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/app-router-scroll-state-DGnFe-wf.js",
+                      "size_bytes":  1065,
+                      "sha256":  "16A265FC55B1C5BD78BB2A7AE053484502B7A3496E834F5F6473E3AC61C6E1B8"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/error-boundary-D36h3xrE.js",
+                      "size_bytes":  5439,
+                      "sha256":  "C00AE05F00EAF711891D53241FA8A3EBE7186DA70D78CCB82A172413B17033E1"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/html-limited-bots-CuOeAu68.js",
+                      "size_bytes":  2600,
+                      "sha256":  "BBCD1DDAEC731C2600F558622489DFB94EBEA1B6E56F71F26E0E468375C1C4CB"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/layout-segment-context-wQ7lkYoF.js",
+                      "size_bytes":  381,
+                      "sha256":  "874A4E9E110F0485F42BDB2B336C3166CC8BE9F18E3D3DD5A94E26CE6BA76093"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/link-B5HE3hth.js",
+                      "size_bytes":  6135,
+                      "sha256":  "585BE27CEC61E5A02C44F3A955505449CB1C4BCAA4DD1F57368C0C9C619C5331"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/navigation-Dc7CDbzP.js",
+                      "size_bytes":  27627,
+                      "sha256":  "28BE14CA1FAFBCD13DEE9A7B17C4A957E2923F400427AA1ED29EFC27ABA334EC"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/_next/static/static.edge-TeGUTG3b.js",
+                      "size_bytes":  168,
+                      "sha256":  "2A5222D92E66D033E92B83F36E596CA8CB04D944A4C04F9D402BB9E701489A06"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/index.js",
+                      "size_bytes":  280828,
+                      "sha256":  "78EA7CBC885982EDB513E59E151ED731166E3CF24B084AA2A88D05177AE56E56"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/vinext-client-assets.js",
+                      "size_bytes":  4469,
+                      "sha256":  "96C14BEF3A4EC0F34453766DB6C5AA204173A72CBE416189510FF06C6CFBDCE9"
+                  },
+                  {
+                      "path":  "dist/dist/server/ssr/vinext-server.json",
+                      "size_bytes":  86,
+                      "sha256":  "E1884CBA47C79D305914E418BD6534E3A7CDDBB7E68891EE75B61254AA7A7D6C"
+                  },
+                  {
+                      "path":  "dist/dist/server/vinext-client-assets.js",
+                      "size_bytes":  4469,
+                      "sha256":  "96C14BEF3A4EC0F34453766DB6C5AA204173A72CBE416189510FF06C6CFBDCE9"
+                  },
+                  {
+                      "path":  "dist/dist/server/vinext-externals.json",
+                      "size_bytes":  3,
+                      "sha256":  "37517E5F3DC66819F61F5A7BB8ACE1921282415F10551D2DEFA5C3EB0985B570"
+                  },
+                  {
+                      "path":  "dist/dist/server/vinext-server.json",
+                      "size_bytes":  86,
+                      "sha256":  "E1884CBA47C79D305914E418BD6534E3A7CDDBB7E68891EE75B61254AA7A7D6C"
+                  },
+                  {
+                      "path":  "dist/dist/server/wrangler.json",
+                      "size_bytes":  1190,
+                      "sha256":  "3D25F727E08F03F598447DD2C2D70A275860E3CA2E2EF329A8DED4111F5450EB"
+                  },
+                  {
+                      "path":  "next.config.ts",
+                      "size_bytes":  132,
+                      "sha256":  "DC95924D236B74D094F02124A2F5BD9BDF68D08C71059B7B97458A5361DE2AE8"
+                  },
+                  {
+                      "path":  "package.json",
+                      "size_bytes":  1497,
+                      "sha256":  "312024BB45E1AA0759030978655CEA1D939FA820D8800ACEE3788B1E39F9D51C"
+                  },
+                  {
+                      "path":  "package-lock.json",
+                      "size_bytes":  359493,
+                      "sha256":  "003E9DD71E34A852B972DEACB503B95881450E469D4262E80B85210C200FC77A"
+                  },
+                  {
+                      "path":  "public/public/favicon.svg",
+                      "size_bytes":  718,
+                      "sha256":  "3E8863288C2D43DD33D2A71DE317DCF9198F09932EA8D61E0DEF1B846A865435"
+                  },
+                  {
+                      "path":  "public/public/file.svg",
+                      "size_bytes":  393,
+                      "sha256":  "81A9CE5CA9BC60870C1D72C0FD5B98B2BC5C8C02B0E04FEFEAB9EFCC11277228"
+                  },
+                  {
+                      "path":  "public/public/globe.svg",
+                      "size_bytes":  1037,
+                      "sha256":  "13187C071B4D369DF3A7A179F69A927165BF624E1A524EE6C93B7D3BE75D6FC8"
+                  },
+                  {
+                      "path":  "public/public/window.svg",
+                      "size_bytes":  387,
+                      "sha256":  "D3CD4BF0C1123258FCC266409856E28C93D4FC1CF8476702225E17842900CA63"
+                  },
+                  {
+                      "path":  "scripts/scripts/generate-content-source.mjs",
+                      "size_bytes":  1073,
+                      "sha256":  "B929F5BBF57BE5712BC0B427B121ACCF4EE38A932F3737A3B1CE04805A0DE78F"
+                  },
+                  {
+                      "path":  "scripts/scripts/validate-data.mjs",
+                      "size_bytes":  1943,
+                      "sha256":  "5877A0AF253255A4A13C97B056AB965D241BC89D48BFDEEBEA532C0546BE771B"
+                  },
+                  {
+                      "path":  "tsconfig.json",
+                      "size_bytes":  632,
+                      "sha256":  "F9FDABE75EB7A192EA4C515E92AE00B84C6CB655E838E6DCC7AB17004376336D"
+                  },
+                  {
+                      "path":  "types/types/cloudflare.d.ts",
+                      "size_bytes":  219,
+                      "sha256":  "50E88FF55363914B30E5B36F41A76AC84B423EC51B578497DCC3393C19E94E4C"
+                  },
+                  {
+                      "path":  "vite.config.ts",
+                      "size_bytes":  1756,
+                      "sha256":  "5D68239B2F24F42354E8A05CF69B83FD8F3CE34727F2EDF2B55283E4F732C77A"
+                  }
+              ]
+}

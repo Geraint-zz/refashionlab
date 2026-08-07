@@ -1,0 +1,22 @@
+{
+  "schema_version": "v1",
+  "candidate_id": "local-build-refashionlab-v1",
+  "source_type": "local_build",
+  "source_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46",
+  "captured_from": "http://127.0.0.1:3002/",
+  "captured_at": "2026-08-07T13:00:00+08:00",
+  "screenshots": [
+    {"page_type":"homepage","viewport":"390x844","path":"docs/planning/skill02-local-build-screenshots/refashionlab-homepage-mobile-v2.png","sha256":"A079A31D69CBDA0FD2545140115E1593F266D57A98B7CF56640D8D8893D2736E"},
+    {"page_type":"homepage","viewport":"1280x800","path":"docs/planning/skill02-local-build-screenshots/refashionlab-homepage-desktop-v2.png","sha256":"F6CC73BD22BDB46D0EC1032047A8D31FF8E32E0576C2AC831773AAD634A5853E"},
+    {"page_type":"section","viewport":"390x844","path":"docs/planning/skill02-local-build-screenshots/refashionlab-section-mobile-v2.png","sha256":"BCAF32D96BFF40546B2F4575311CCE89C28D563279023B590F26C44602C02820"},
+    {"page_type":"section","viewport":"1280x800","path":"docs/planning/skill02-local-build-screenshots/refashionlab-section-desktop-v2.png","sha256":"0E38EE73E3272F44E2D23F724613A94E05F5D917388A813EC9E1A5E4B2CCED75"},
+    {"page_type":"category","viewport":"390x844","path":"docs/planning/skill02-local-build-screenshots/refashionlab-category-mobile-v2.png","sha256":"C42ADB1E6D9D359108633D194B65D2A591B1B7E086228279F178B936212B9379"},
+    {"page_type":"category","viewport":"1280x800","path":"docs/planning/skill02-local-build-screenshots/refashionlab-category-desktop-v2.png","sha256":"2AEE2B72D537AC787EFC05087089584B83A0856752E9623547F664869A56CCCC"},
+    {"page_type":"post","viewport":"390x844","path":"docs/planning/skill02-local-build-screenshots/refashionlab-post-mobile-v2.png","sha256":"898909CD426C8B69281F16D3A4535730A5E92486CD9BFBA04C0693136CDA8692"},
+    {"page_type":"post","viewport":"1280x800","path":"docs/planning/skill02-local-build-screenshots/refashionlab-post-desktop-v2.png","sha256":"7D53553992667A6B57A560A0129999BED8BA7A838D9841978E2426F5572B11F7"},
+    {"page_type":"legal","viewport":"390x844","path":"docs/planning/skill02-local-build-screenshots/refashionlab-legal-mobile-v2.png","sha256":"C0F3A058307CE52CA269C3E47B5C18BECA3C718D19AA66BC6DB3AC006284A6D4"},
+    {"page_type":"legal","viewport":"1280x800","path":"docs/planning/skill02-local-build-screenshots/refashionlab-legal-desktop-v2.png","sha256":"290507B149BE48C36F5473E066FB02E4130A628EE5A572EAFE367CB1144D6BDB"}
+  ],
+  "coverage": {"homepage":"PASS","section":"PASS","category":"PASS","post":"PASS","legal":"PASS","mobile":"PASS","desktop":"PASS"},
+  "approval_status": "WAITING_FOR_USER_VISUAL_APPROVAL"
+}

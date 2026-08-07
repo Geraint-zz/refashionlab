@@ -6,7 +6,7 @@
 
 ```text
 project_root: C:\Users\aoemo\Documents\Refashion
-site_id: refashion_lab
+site_id: refashion-lab
 site_name: refashionlab
 archive_batch_id: beginner-refashion-lab-2026-08-05
 locked_package: [本 ZIP 文件路径]

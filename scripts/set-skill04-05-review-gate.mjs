@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root=process.cwd();
+const p04=path.join(root,'docs/planning/04-skill-output-manifest-v1.json');
+const p05=path.join(root,'docs/planning/05-skill-output-manifest-skill05-initial-content-package-2026-08-07-refashion-lab.json');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+const write=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+const m04=read(p04); m04.final_status='WAITING_FOR_PREPARED_CONTENT_REVIEW'; m04.stage_handoff_gate.downstream_handoff_allowed=false; m04.orchestration.status='WAITING_FOR_PREPARED_CONTENT_REVIEW'; m04.orchestration.next_stage='04_prepared_content_review'; m04.human_review.needs_review_count=0; write(p04,m04);
+const m05=read(p05); m05.final_status='BLOCKED_SKILL05_HANDOFF'; m05.stage_handoff_gate.downstream_handoff_allowed=false; m05.orchestration.status='BLOCKED_SKILL05_HANDOFF'; m05.orchestration.next_stage='04_prepared_content_review'; write(p05,m05);
+const checkpoint={schema_version:'v1',site_id:'refashion-lab',mode:'skill04-05',current_stage:'04_prepared_content_review',state:'WAITING_FOR_PREPARED_CONTENT_REVIEW',skill04_status:'WAITING_FOR_PREPARED_CONTENT_REVIEW',skill05_status:'BLOCKED_SKILL05_HANDOFF',prepared_article_count:50,needs_review_count:0,package_built_locally:true,package_handoff_allowed:false,admin_upload_started:false,preview_started:false,apply_started:false,review_summary:'docs/planning/skill04-media-review-summary-v1.md',contact_sheet:'docs/planning/skill04-contact-sheet-v1.png',approval_phrase:'确认 Skill 04 prepared content clean-ready，继续 Skill 05'};
+write(path.join(root,'docs/planning/skill04-05-orchestration-checkpoint-v1.json'),checkpoint); console.log(JSON.stringify(checkpoint,null,2));

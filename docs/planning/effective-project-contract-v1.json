@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "project_contract_version": "skill03-local-build-exception-v1",
+  "status": "CURRENT",
+  "site_id": "refashion-lab",
+  "site_name": "refashionlab",
+  "project_root": "C:\\Users\\aoemo\\Documents\\Refashion",
+  "implementation_authority": "vinext_next",
+  "source_identity_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46",
+  "data_authority": "app/lib/generated-content.ts",
+  "admin_projection": "src/data"
+}

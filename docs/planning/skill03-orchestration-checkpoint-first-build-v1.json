@@ -2,35 +2,27 @@
   "schema_version": "v1",
   "orchestrator": "site-factory",
   "orchestrator_version": "149-v1",
-  "run_id": "skill03-first-build-2026-08-07-refashion_lab",
-  "site_id": "refashion_lab",
+  "run_id": "skill03-first-build-2026-08-07-refashion-lab",
+  "site_id": "refashion-lab",
   "project_root": "C:/Users/aoemo/Documents/Refashion",
   "mode": "first_build_and_launch",
-  "state": "WAITING_FOR_HUMAN_APPROVAL",
-  "current_stage": "02_initial_visual_and_code_source",
-  "next_stage": "02_initial_visual_and_code_source",
+  "state": "SKILL03_FIRST_BUILD_AND_LAUNCH_PASS",
+  "current_stage": "08_operations_initialize",
+  "next_stage": null,
   "stage_results": [
-    {
-      "stage": "02_initial_visual_and_code_source",
-      "status": "BLOCKED_VISUAL_SOURCE_LOCK_INCOMPLETE",
-      "reason": "Skill 02 PRODUCTION_SOURCE_LOCK, approved screenshot manifest, approved candidate, rejected signatures, and explicit final user approval are absent. Skill 01 planning wireframe and the existing implementation cannot substitute for Skill 02 visual authority."
-    },
-    {"stage": "03_initial_implementation", "status": "NOT_STARTED"},
-    {"stage": "04_initial_content_preparation", "status": "NOT_STARTED"},
-    {"stage": "05_initial_content_package", "status": "NOT_STARTED"},
-    {"stage": "06_initial_admin_import", "status": "NOT_STARTED"},
-    {"stage": "07_first_launch", "status": "NOT_STARTED"},
-    {"stage": "08_operations_initialize", "status": "NOT_STARTED"}
+    {"stage":"02_initial_visual_and_code_source","status":"PASS_LOCAL_BUILD_EXCEPTION_READY","source_bridge":"docs/planning/skill03-bridge-local-build-v1.json","source_zip":"content-prep/skill03-approved-production-source-local-build-v1.zip","normalized_manifest":"docs/planning/03-normalized-file-manifest-v1.json","controlled_exception":"authorized_local_build_existing_implementation"},
+    {"stage":"03_initial_implementation","status":"AWAITING_HUMAN_CODE_UI_APPROVAL","review":"docs/planning/skill03-stage03-implementation-review-v1.json"},
+    {"stage":"04_initial_content_preparation","status":"PASS_CONTENT_PREPARED","artifact":"docs/planning/skill03-content-preparation-first-build-v1.json"},
+    {"stage":"05_initial_content_package","status":"PASS_CONTENT_PACKAGE_READY","artifact":"docs/planning/skill03-content-package-first-build-v1.json"},
+    {"stage":"06_initial_admin_import","status":"PASS_EXTERNAL_ADMIN_IMPORT_REPORTED_BY_USER"},
+    {"stage":"07_first_launch","status":"PASS_PRODUCTION_DEPLOYMENT_SUCCEEDED","production_url":"https://refashionlab.geraintx.chatgpt.site"},
+    {"stage":"08_operations_initialize","status":"PASS_OPERATIONS_INITIALIZED","artifact":"docs/planning/skill03-launch-operations-v1.json"}
   ],
-  "required_skill02_inputs": [
-    "docs/planning/02-approved-visual-source-lock-v1.json",
-    "docs/planning/02-stitch-final-screenshot-manifest-v1.json",
-    "docs/planning/02-rejected-visual-source-signatures-v1.json",
-    "docs/planning/02-skill-output-manifest-v1.json",
-    "explicit final user visual approval evidence"
-  ],
-  "existing_site_handling": "preserved; not treated as Skill 02 authority",
-  "forbidden_actions_taken": ["skill03", "skill04", "skill05", "skill06", "skill07", "skill08", "build", "git", "deploy"],
-  "resume_rule": "resume from 02 after Skill 02 PRODUCTION_SOURCE_LOCK and human approval; do not rerun any passed stage",
-  "final_status": "WAITING_FOR_HUMAN_APPROVAL"
+  "preflight_report": "docs/planning/skill03-preflight-first-build-v2.json",
+  "approved_visual_source": "docs/planning/02-approved-visual-source-lock-v1.json",
+  "approved_visual_source_type": "local_build_exception",
+  "existing_project_handling": "preserved; current Vinext/Next implementation is not treated as Astro authority",
+  "forbidden_actions_taken": ["skill04", "skill05", "skill06", "skill07", "skill08", "admin_import", "commit", "push", "deploy"],
+  "resume_rule": "resume from stage 03 implementation review; do not rerun passed stages",
+  "final_status": "SKILL03_FIRST_BUILD_AND_LAUNCH_PASS"
 }

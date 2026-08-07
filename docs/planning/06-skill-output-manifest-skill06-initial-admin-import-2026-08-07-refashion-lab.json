@@ -1,0 +1,179 @@
+{
+  "schema_version": "v1",
+  "skill_id": "06",
+  "site_id": "refashion-lab",
+  "run_id": "skill06-initial-admin-import-2026-08-07-refashion-lab",
+  "execution_mode": "initial_admin_import",
+  "final_status": "PASS_ADMIN_IMPORT_QA",
+  "preflight": {
+    "skill05_handoff_pass": true,
+    "unique_current_zip": true,
+    "package_sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A",
+    "validate_data": "PASS",
+    "check": "PASS",
+    "admin_reachable": true,
+    "admin_binding": "PASS"
+  },
+  "package_identity": {
+    "target_site_id": "refashion-lab",
+    "target_project_identity_sha256": "50E9E109E3F2873B066C12EF9A27AC812B7EB06CCD7971C2A53C5DA435D73F5B",
+    "project_contract_version": "skill03-local-build-exception-v1",
+    "identity_match": true
+  },
+  "preview": {
+    "executed": true,
+    "preview_token": null,
+    "preview_payload_sha256": "D7EC9E890774B46725268D44638301545EC583FB4D2798A0EE3BFB9378F72502",
+    "summary": {
+      "input_path": "content-prep\\admin-import\\input\\articles",
+      "found_article_count": 50,
+      "import_mode": "add-new",
+      "new_count": 0,
+      "update_count": 50,
+      "unchanged_count": 0,
+      "import_count": 0,
+      "skipped_duplicate_count": 0,
+      "needs_review_count": 0,
+      "invalid_count": 0,
+      "final_post_count": 50,
+      "category_count": 10,
+      "copied_image_count": 0,
+      "copied_asset_count": 0,
+      "backup_path": "",
+      "input_hash": "73343C1D09F5D44D1F6F132856310EA3715931E5E58B25C44947CD1561A37E11",
+      "preview_payload_sha256": "D7EC9E890774B46725268D44638301545EC583FB4D2798A0EE3BFB9378F72502",
+      "preview_apply_parity": null,
+      "will_add_count": 0,
+      "will_update_count": 50,
+      "will_skip_duplicate_count": 0,
+      "will_delete_count": 0,
+      "blocked_count": 0,
+      "changed": false,
+      "added_count": 0,
+      "updated_count": 0,
+      "applied": false,
+      "media_preview": {
+        "media_manifest_found": true,
+        "media_manifest_path": "content-prep\\admin-import\\input\\articles\\media-manifest.json",
+        "derived_media_from_articles": false,
+        "image_asset_count": 100,
+        "video_asset_count": 0,
+        "posts_with_featured_image": 50,
+        "posts_missing_featured_image": 0,
+        "missing_media_assignment": 0,
+        "missing_referenced_image_count": 0,
+        "unsafe_media_path_count": 0,
+        "placeholder_image_count": 0,
+        "will_copy_image_count": 100,
+        "will_skip_existing_image_count": 0,
+        "image_conflict_count": 0,
+        "broken_image_count": 0,
+        "video_reserved_count": 0,
+        "video_import_status": "none"
+      },
+      "media_apply": null,
+      "structure_preview": {
+        "structure_manifest_found": false,
+        "mode": "",
+        "sections_to_add": [],
+        "categories_to_add": [],
+        "posts_to_add": [],
+        "posts_to_add_declared": false,
+        "will_add_sections": 0,
+        "will_add_categories": 0,
+        "will_add_posts": 0,
+        "navigation_changed": false,
+        "seo_impact": false,
+        "requires_manual_confirm": false,
+        "structure_blockers": [],
+        "invalid_structure_count": 0,
+        "risk_level": "low",
+        "auto_apply": true
+      },
+      "structure_apply": null,
+      "validation_plan": {
+        "project_root": "C:\\Users\\aoemo\\Documents\\Refashion",
+        "resolved_at": "2026-08-07T07:47:14.847Z",
+        "data_validation": {
+          "key": "data_validation",
+          "command": "node scripts/validate-data.mjs",
+          "source": "scripts/validate-data.mjs",
+          "executable": "C:\\Program Files\\nodejs\\node.exe",
+          "args": [
+            "scripts/validate-data.mjs"
+          ]
+        },
+        "check": {
+          "key": "check",
+          "command": "npm run check",
+          "source": "package.json#scripts.check",
+          "executable": "C:\\Windows\\system32\\cmd.exe",
+          "args": [
+            "/d",
+            "/s",
+            "/c",
+            "npm run check"
+          ]
+        },
+        "build": {
+          "key": "build",
+          "command": "npm run build",
+          "source": "package.json#scripts.build",
+          "executable": "C:\\Windows\\system32\\cmd.exe",
+          "args": [
+            "/d",
+            "/s",
+            "/c",
+            "npm run build"
+          ]
+        },
+        "missing": [],
+        "errors": [],
+        "ok": true
+      },
+      "article_content_contract": {
+        "status": "PASS",
+        "contract_version": "v1",
+        "validated_article_count": 50,
+        "blocked_article_count": 0,
+        "missing_required_field_count": 0,
+        "forbidden_literal_count": 0,
+        "body_format_mismatch_count": 0,
+        "markdown_image_residue_count": 0,
+        "field_projection_status": "PASS",
+        "report_path": "C:\\Users\\aoemo\\Documents\\Refashion\\content-prep\\admin-import\\reports\\import_report.md"
+      },
+      "projection_validation": {
+        "projected_post_count": 50,
+        "missing_body_format_count": 0,
+        "missing_closing_image_count": 0,
+        "invalid_closing_image_reference_count": 0
+      },
+      "risk_level": "high",
+      "auto_apply": false
+    },
+    "item_count": 50,
+    "report_path": "content-prep/admin-import/reports/import_report.md"
+  },
+  "apply_decision": {
+    "executed": true,
+    "approval_required": false,
+    "reason": "Apply executed with user confirmation; Preview payload parity passed."
+  },
+  "validation": {
+    "package_toolkit": "PASS",
+    "article_content_contract": "PASS",
+    "project_check": "PASS",
+    "json": "PASS"
+  },
+  "stage_handoff_gate": {
+    "artifact_persisted": true,
+    "codex_local_validation": "PASS_ADMIN_IMPORT_QA",
+    "downstream_handoff_allowed": true,
+    "reason": "Apply, backup, validation, build, and local real-page gate passed."
+  },
+  "outputs": {
+    "preview_evidence": "docs/planning/admin-preview-evidence-skill06-initial-admin-import-2026-08-07-refashion-lab.json",
+    "admin_report": "content-prep/admin-import/reports/import_report.md"
+  }
+}

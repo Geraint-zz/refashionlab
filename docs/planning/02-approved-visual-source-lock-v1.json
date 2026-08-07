@@ -1,0 +1,34 @@
+{
+  "schema_version": "v1-local-build-exception",
+  "skill_id": "02",
+  "site_id": "refashion-lab",
+  "site_name": "refashionlab",
+  "source_type": "local_build",
+  "source_path": "C:/Users/aoemo/Documents/Refashion",
+  "source_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46",
+  "candidate_id": "local-build-refashionlab-v1",
+  "approved_by_user": true,
+  "approval_timestamp": "2026-08-07T14:14:48+08:00",
+  "approval_evidence": {
+    "approval_type": "explicit_text_confirmation",
+    "approval_text_or_reference": "批准",
+    "approved_candidate_id": "local-build-refashionlab-v1",
+    "approved_screenshot_set": "docs/planning/02-local-build-screenshot-manifest-v1.json"
+  },
+  "approved_visual_identity_summary": "Warm cream editorial surface, deep green ink, muted sage and terracotta accents, text wordmark, tactile abstract fabric hero, generous spacing, restrained rounded cards, mobile-first content reading layouts.",
+  "approved_logo_type": "text_wordmark",
+  "approved_homepage_signature": ["text wordmark header", "beginner-focused hero", "abstract fabric/thread illustration", "four pathways", "three section cards", "featured guides", "editorial promise", "four-link Legal footer"],
+  "visual_identity_signature": {
+    "logo": {"icon_family_or_asset": "none", "icon_name_or_asset_filename": null, "shape_description": "text-only refashionlab wordmark with rust full stop", "text_lockup": "refashionlab.", "disallowed_alternatives": ["animal icon", "mascot", "monogram", "unapproved symbol"]},
+    "homepage": {"headline_exact_or_hash": "Make useful things from what you already have.", "hero_structure": ["text-led left copy", "abstract fabric illustration right on desktop", "stacked illustration below copy on mobile"], "primary_image_position": "right desktop / below actions mobile", "section_order": ["header", "hero", "pathways", "explore", "featured", "promise", "footer"], "card_structure": ["label", "title", "short description", "next-step link"]},
+    "page_architecture": {"required_page_types": ["homepage", "section", "category", "post", "legal"], "breadcrumb_pattern": "category · beginner guide", "article_header_structure": ["category label", "title", "direct answer", "published date", "long-form body"]},
+    "visual_tokens": {"typography_summary": "large high-contrast editorial headings with compact uppercase labels and readable body copy", "spacing_summary": "generous section spacing with compact card gaps", "border_radius_summary": "restrained rounded cards and pill actions", "color_summary": "warm cream, dark green, sage, rust, muted gray-green"}
+  },
+  "visual_authority_order": ["approved_local_build_screenshot_set", "approved_local_build_source", "approved_ui_brief", "skill01_planning_wireframe"],
+  "source_content_fingerprint": {"outer_archive_sha256": null, "normalized_file_count": 9, "normalized_file_manifest_sha256": "AF077257CD24F4C1FE42BACEA97A29636F46B1D2B0F3DED2CC83E19D1E4FDB46", "screenshot_count": 10, "screenshot_manifest_sha256": "see 02-local-build-screenshot-manifest-v1.json", "duplicate_content_equivalence_checked": false, "equivalent_archive_paths": []},
+  "screenshot_manifest_path": "docs/planning/02-local-build-screenshot-manifest-v1.json",
+  "rejected_visual_source_signatures": "docs/planning/02-rejected-visual-source-signatures-v1.json",
+  "standard_stitch_contract": "skipped_by_explicit_user_instruction",
+  "ready_for_skill03": true,
+  "ready_for_skill04_after_skill03": true
+}

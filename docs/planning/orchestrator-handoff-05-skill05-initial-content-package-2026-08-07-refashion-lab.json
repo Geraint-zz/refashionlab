@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill05-initial-content-package-2026-08-07-refashion-lab",
+  "stage_id": "05_initial_content_package",
+  "status": "PASS",
+  "next_stage": "06_initial_admin_import",
+  "artifact_persisted": true,
+  "codex_local_validation": "PASS",
+  "downstream_handoff_allowed": true,
+  "package_path": "content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip",
+  "outer_archive_sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A"
+}

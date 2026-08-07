@@ -1,0 +1,10 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill06-initial-admin-import-2026-08-07-refashion-lab",
+  "inventory_count": 0,
+  "cleanup_preview_count": 0,
+  "exact_path_actions": [],
+  "safe_deleted_file_count": 0,
+  "review_required_count": 0,
+  "status": "PASS_NO_CLEANUP_REQUIRED"
+}

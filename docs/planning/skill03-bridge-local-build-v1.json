@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "skill_id": "03",
+  "site_id": "refashion-lab",
+  "site_name": "refashionlab",
+  "mode": "first_build_and_launch",
+  "stage": "02_initial_visual_and_code_source",
+  "status": "PASS_LOCAL_BUILD_EXCEPTION_READY",
+  "source_type": "local_build_exception",
+  "candidate_id": "local-build-refashionlab-v1",
+  "visual_lock": "docs/planning/02-approved-visual-source-lock-v1.json",
+  "screenshot_manifest": "docs/planning/02-stitch-final-screenshot-manifest-v1.json",
+  "production_source_zip": "content-prep/skill03-approved-production-source-local-build-v1.zip",
+  "production_source_zip_sha256": "ACD0013491098F71B4501DE36DEDB2158676907DE83935105B637D343DD4BE93",
+  "normalized_file_manifest": "docs/planning/03-normalized-file-manifest-v1.json",
+  "normalized_file_manifest_sha256": "DC068D71BA1B971D7006385AC2BA747B0A2570A5DABED521941E5F8E74F156A6",
+  "user_authorization": {
+    "instruction": "user_approved_local_build_instead_of_stitch",
+    "approved": true,
+    "approval_timestamp": "2026-08-07T14:14:48+08:00"
+  },
+  "implementation_authority": {
+    "type": "vinext_next",
+    "existing_astro_markers": false,
+    "exception": "authorized_local_build_existing_implementation",
+    "astro_markers_fabricated": false
+  },
+  "ready_for_stage_02": true,
+  "next_stage": "03_initial_implementation"
+}

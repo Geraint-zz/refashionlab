@@ -1,0 +1,44 @@
+{
+  "schema_version": "site-factory-controlled-stage-exception-v1",
+  "exception_id": "skill06-controlled-exception-skill07-2026-08-07-refashion-lab-v1",
+  "site_id": "refashion-lab",
+  "site_name": "refashionlab",
+  "source_stage": "06_initial_admin_import",
+  "target_stage": "07_first_launch",
+  "status": "APPROVED_CONTROLLED_EXCEPTION",
+  "approval": {
+    "approved": true,
+    "approval_source": "explicit_user_confirmation",
+    "approved_at": "2026-08-07T00:00:00+08:00",
+    "approved_scope": "Enter Skill 07 with Admin import explicitly incomplete; do not represent Skill 06 as passed."
+  },
+  "upstream_state": {
+    "skill06_status": "BLOCKED_ADMIN_BINDING_MISMATCH",
+    "admin_import_completed": false,
+    "upload_executed": false,
+    "preview_executed": false,
+    "apply_executed": false,
+    "skill06_manifest": "docs/planning/06-skill-output-manifest-skill06-initial-admin-import-2026-08-07-refashion-lab.json",
+    "blocker": "Admin 0.1.32 rejects refashion-lab and has no supported Vinext/Next local-build project adapter."
+  },
+  "exception_policy": {
+    "skill06_final_status_preserved": true,
+    "content_import_status": "INCOMPLETE",
+    "skill07_may_enter": true,
+    "skill07_allowed_modes": ["local_qa_only", "launch_preparation_only"],
+    "skill07_may_claim_launch_complete": false,
+    "git_push_allowed": false,
+    "deployment_allowed": false,
+    "cloudflare_apply_allowed": false,
+    "apply_admin_payload_allowed": false,
+    "user_confirmation_required_before_any_external_release": true
+  },
+  "required_skill07_disclosures": [
+    "Every Skill 07 report must state that Skill 06 Admin import is incomplete.",
+    "No post, image, slug, time, or composite content quality result may be described as Admin Preview evidence.",
+    "A launch PASS is forbidden under this exception until Skill 06 is completed or a separately approved release exception supersedes this record.",
+    "The locked Skill 05 ZIP and its SHA256 must remain unchanged."
+  ],
+  "reversal_condition": "Complete Skill 06 Upload -> Preview, obtain user Apply approval if needed, then record validate-data, check, build, and local-page confirmation.",
+  "approved_by_user": true
+}

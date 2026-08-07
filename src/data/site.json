@@ -1,0 +1,7 @@
+{
+  "site_id": "refashion-lab",
+  "site_name": "refashionlab",
+  "domain": "https://refashionlab.geraintx.chatgpt.site",
+  "data_source": "app/lib/generated-content.ts",
+  "projection_contract": "next-admin-projection-v1"
+}

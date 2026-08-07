@@ -1,0 +1,11 @@
+{
+  "schema_version": "v1-local-build-exception",
+  "candidate_id": "local-build-refashionlab-v1",
+  "source_type": "local_build",
+  "approved": true,
+  "approved_by_user": true,
+  "approval_timestamp": "2026-08-07T14:14:48+08:00",
+  "screenshots_manifest_path": "docs/planning/02-local-build-screenshot-manifest-v1.json",
+  "screenshot_count": 10,
+  "coverage": ["homepage", "section", "category", "post", "legal", "mobile", "desktop"]
+}

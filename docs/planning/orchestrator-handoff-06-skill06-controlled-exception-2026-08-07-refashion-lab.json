@@ -1,0 +1,27 @@
+{
+  "schema_version": "site-factory-controlled-stage-exception-handoff-v1",
+  "run_id": "skill06-controlled-exception-skill07-2026-08-07-refashion-lab-v1",
+  "site_id": "refashion-lab",
+  "source_stage": "06_initial_admin_import",
+  "target_stage": "07_first_launch",
+  "source_status": "BLOCKED_ADMIN_BINDING_MISMATCH",
+  "handoff_status": "APPROVED_EXCEPTION_HANDOFF_WITH_IMPORT_INCOMPLETE",
+  "downstream_handoff_allowed": true,
+  "exception_record": "docs/planning/skill06-controlled-exception-skill07-2026-08-07-refashion-lab-v1.json",
+  "skill06_current_manifest": "docs/planning/06-skill-output-manifest-skill06-initial-admin-import-2026-08-07-refashion-lab.json",
+  "skill05_locked_zip": "content-prep/packages/refashion-lab-content-package-skill05-initial-content-package-2026-08-07-refashion-lab.zip",
+  "skill05_locked_zip_sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A",
+  "skill07_constraints": {
+    "admin_import_incomplete": true,
+    "local_qa_allowed": true,
+    "launch_preparation_allowed": true,
+    "git_push_allowed": false,
+    "deployment_allowed": false,
+    "launch_complete_allowed": false
+  },
+  "approval": {
+    "approved": true,
+    "approval_source": "explicit_user_confirmation",
+    "approved_at": "2026-08-07T00:00:00+08:00"
+  }
+}

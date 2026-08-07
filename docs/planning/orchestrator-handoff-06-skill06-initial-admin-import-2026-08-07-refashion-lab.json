@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill06-initial-admin-import-2026-08-07-refashion-lab",
+  "stage_id": "06_initial_admin_import",
+  "status": "PASS_ADMIN_IMPORT_QA",
+  "site_id": "refashion-lab",
+  "next_stage": "07_first_launch",
+  "preview_payload_sha256": "D7EC9E890774B46725268D44638301545EC583FB4D2798A0EE3BFB9378F72502",
+  "apply_executed": true,
+  "blocker": null,
+  "apply_evidence": "docs/planning/admin-apply-evidence-skill06-initial-admin-import-2026-08-07-refashion-lab.json"
+}

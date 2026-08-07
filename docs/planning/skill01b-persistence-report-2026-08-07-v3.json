@@ -1,11 +1,11 @@
-﻿{
+{
     "schema_version":  "v1",
     "skill_id":  "01B",
-    "site_id":  "refashion_lab",
+    "site_id":  "refashion-lab",
     "site_name":  "refashionlab",
     "project_root":  "C:\\Users\\aoemo\\Documents\\Refashion",
-    "run_id":  "skill01b-final-2026-08-07-refashion_lab",
-    "input_zip":  "C:\\Users\\aoemo\\Documents\\Refashion\\content-prep\\skill01-locked-outputs-refashion_lab-beginner-refashion-lab-2026-08-05-v3.zip",
+    "run_id":  "skill01b-final-2026-08-07-refashion-lab",
+    "input_zip":  "C:\\Users\\aoemo\\Documents\\Refashion\\content-prep\\skill01-locked-outputs-refashion-lab-beginner-refashion-lab-2026-08-05-v3.zip",
     "zip_sha256":  "D5B010B656FEE68844A117177CF70E0198E5531C8FBF08FA0B6F2A60A39C3F09",
     "zip_entry_count":  9,
     "archive_batch_id":  "beginner-refashion-lab-2026-08-05",

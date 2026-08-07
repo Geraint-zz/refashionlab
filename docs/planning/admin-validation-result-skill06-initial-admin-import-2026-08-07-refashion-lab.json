@@ -1,0 +1,10 @@
+{
+  "schema_version": "v1",
+  "run_id": "skill06-initial-admin-import-2026-08-07-refashion-lab",
+  "validate_data": "PASS",
+  "npm_check": "PASS",
+  "admin_reachable": true,
+  "admin_binding": "BLOCKED_ADMIN_BINDING_MISMATCH",
+  "preview_not_run": true,
+  "apply_not_run": true
+}

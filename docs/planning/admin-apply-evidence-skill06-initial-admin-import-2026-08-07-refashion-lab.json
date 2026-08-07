@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "skill_id": "06",
+  "site_id": "refashion-lab",
+  "apply_executed": true,
+  "approval": "user_confirmed",
+  "package_sha256": "15C5BD004C2951E48145F3C45C616E0D16AA0F84924082C89391760944F57A9A",
+  "preview_token": "99F9A35B9B228E2F2222B0D51558ED57D5C14035C192DE378236E41B073EA612",
+  "preview_payload_sha256": "D7EC9E890774B46725268D44638301545EC583FB4D2798A0EE3BFB9378F72502",
+  "preview_apply_parity": "PASS",
+  "summary": { "found_article_count": 50, "new_count": 0, "updated_count": 50, "deleted_count": 0, "final_post_count": 50, "category_count": 10, "images_copied": 100, "slugs_checked": 50, "warnings": 0, "blockers": 0 },
+  "backup": { "status": "PASS", "path": "backups/admin-import/20260807-155150/src-data", "image_target_hash_manifest": "backups/admin-import/20260807-155150/image-target-hash-manifest.json" },
+  "validation": { "validate_data": "PASS", "check": "PASS", "build": "PASS", "article_content_contract": "PASS", "media_validation": "PASS", "json": "PASS" },
+  "local_real_page_gate": { "status": "PASS", "preview_url": "http://127.0.0.1:4322/", "routes": ["/", "/about/", "/terms/", "/privacy-policy/", "/user-agreement/", "/sitemap.xml", "/robots.txt"], "all_checked": true, "canonical": "https://refashionlab.geraintx.chatgpt.site/" },
+  "final_status": "PASS_ADMIN_IMPORT_QA",
+  "next_stage": "07_first_launch",
+  "git_deploy": false
+}

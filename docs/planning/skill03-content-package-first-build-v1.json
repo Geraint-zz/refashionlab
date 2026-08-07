@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "skill_id": "03",
+  "site_id": "refashion-lab",
+  "stage": "05_initial_content_package",
+  "status": "PASS_CONTENT_PACKAGE_READY",
+  "package_type": "embedded_content_source",
+  "package_source": "app/lib/generated-content.ts",
+  "package_contract": {
+    "section_key": "section",
+    "category_key": "category",
+    "post_key": "slug",
+    "published_at_policy": "2026-08-07 anchor with deterministic assigned dates"
+  },
+  "counts": {
+    "sections": 3,
+    "categories": 10,
+    "posts": 50,
+    "legal_pages": 4
+  },
+  "validation": {
+    "json_and_source_check": "PASS",
+    "build": "PASS",
+    "rendered_html_tests": "PASS_2_OF_2",
+    "package_ready_for_admin_import": true
+  },
+  "downstream_stage_started": false
+}
