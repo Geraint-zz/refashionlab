@@ -1,0 +1,3 @@
+import type { MetadataRoute } from "next";
+import { posts, sections, siteOrigin } from "./lib/content";
+export default function sitemap(): MetadataRoute.Sitemap { const now = new Date("2026-08-07T00:00:00+08:00"); return [{ url: `${siteOrigin}/`, lastModified: now }, ...sections.map((section) => ({ url: `${siteOrigin}/section/${section.slug}/`, lastModified: now })), ...sections.flatMap((section) => section.categories.map((category) => ({ url: `${siteOrigin}/category/${category.slug}/`, lastModified: now }))), ...posts.map((post) => ({ url: `${siteOrigin}/post/${post.slug}/`, lastModified: new Date(post.updatedAt) })), ...["about", "privacy-policy", "terms", "user-agreement"].map((slug) => ({ url: `${siteOrigin}/${slug}/`, lastModified: now }))]; }

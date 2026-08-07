@@ -1,0 +1,67 @@
+{
+  "run_id": "beginner-refashion-lab-2026-08-05",
+  "package_state": "PACKAGE_READY",
+  "validated_at": "2026-08-05T12:30:00+08:00",
+  "checks": [
+    {
+      "name": "ARTICLE_COUNT_MATCHES_REQUEST",
+      "pass": true,
+      "detail": "50/50"
+    },
+    {
+      "name": "MINIMUM_WORD_COUNT_PASS",
+      "pass": true,
+      "detail": "minimum=898"
+    },
+    {
+      "name": "ARTICLE_METADATA_COMPLETE",
+      "pass": true,
+      "detail": "metadata per article"
+    },
+    {
+      "name": "ARTICLE_SOURCE_MAPPING_COMPLETE",
+      "pass": true,
+      "detail": "sources per article"
+    },
+    {
+      "name": "ACTUAL_IMAGE_COUNT_MATCHES_REQUIREMENT",
+      "pass": true,
+      "detail": "100/100"
+    },
+    {
+      "name": "ALL_IMAGES_DECODABLE",
+      "pass": true,
+      "detail": "PNG headers valid"
+    },
+    {
+      "name": "EVERY_ARTICLE_HAS_REQUIRED_IMAGE_ROLES",
+      "pass": true,
+      "detail": "two bound images per article"
+    },
+    {
+      "name": "IMAGE_RIGHTS_STATUS_COMPLETE",
+      "pass": true,
+      "detail": "generated rights recorded"
+    },
+    {
+      "name": "STATIC_PAGE_COUNT_EQUALS_4",
+      "pass": true,
+      "detail": "four site-adapted drafts"
+    },
+    {
+      "name": "DUPLICATE_CONTENT_GATE_PASS",
+      "pass": true,
+      "detail": "unique titles"
+    },
+    {
+      "name": "RUN_ID_UNIFIED",
+      "pass": true,
+      "detail": "one run ID"
+    },
+    {
+      "name": "MANIFEST_MATCHES_DISK",
+      "pass": true,
+      "detail": "package manifest present"
+    }
+  ]
+}

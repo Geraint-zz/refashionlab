@@ -1,0 +1,2 @@
+import { ContentShell } from "./ContentShell";
+export function LegalPage({ title, intro, sections }: { title: string; intro: string; sections: Array<[string, string]> }) { return <ContentShell><article className="article legal-page"><p className="kicker">refashionlab trust page</p><h1>{title}</h1><p className="lede">{intro}</p>{sections.map(([heading, body]) => <section key={heading}><h2>{heading}</h2><p>{body}</p></section>)}</article></ContentShell>; }

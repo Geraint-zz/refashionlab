@@ -1,0 +1,36 @@
+{
+  "schema_version": "v1",
+  "orchestrator": "site-factory",
+  "orchestrator_version": "149-v1",
+  "run_id": "skill03-first-build-2026-08-07-refashion_lab",
+  "site_id": "refashion_lab",
+  "project_root": "C:/Users/aoemo/Documents/Refashion",
+  "mode": "first_build_and_launch",
+  "state": "WAITING_FOR_HUMAN_APPROVAL",
+  "current_stage": "02_initial_visual_and_code_source",
+  "next_stage": "02_initial_visual_and_code_source",
+  "stage_results": [
+    {
+      "stage": "02_initial_visual_and_code_source",
+      "status": "BLOCKED_VISUAL_SOURCE_LOCK_INCOMPLETE",
+      "reason": "Skill 02 PRODUCTION_SOURCE_LOCK, approved screenshot manifest, approved candidate, rejected signatures, and explicit final user approval are absent. Skill 01 planning wireframe and the existing implementation cannot substitute for Skill 02 visual authority."
+    },
+    {"stage": "03_initial_implementation", "status": "NOT_STARTED"},
+    {"stage": "04_initial_content_preparation", "status": "NOT_STARTED"},
+    {"stage": "05_initial_content_package", "status": "NOT_STARTED"},
+    {"stage": "06_initial_admin_import", "status": "NOT_STARTED"},
+    {"stage": "07_first_launch", "status": "NOT_STARTED"},
+    {"stage": "08_operations_initialize", "status": "NOT_STARTED"}
+  ],
+  "required_skill02_inputs": [
+    "docs/planning/02-approved-visual-source-lock-v1.json",
+    "docs/planning/02-stitch-final-screenshot-manifest-v1.json",
+    "docs/planning/02-rejected-visual-source-signatures-v1.json",
+    "docs/planning/02-skill-output-manifest-v1.json",
+    "explicit final user visual approval evidence"
+  ],
+  "existing_site_handling": "preserved; not treated as Skill 02 authority",
+  "forbidden_actions_taken": ["skill03", "skill04", "skill05", "skill06", "skill07", "skill08", "build", "git", "deploy"],
+  "resume_rule": "resume from 02 after Skill 02 PRODUCTION_SOURCE_LOCK and human approval; do not rerun any passed stage",
+  "final_status": "WAITING_FOR_HUMAN_APPROVAL"
+}

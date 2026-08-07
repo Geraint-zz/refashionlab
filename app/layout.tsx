@@ -5,7 +5,7 @@ import "./globals.css";
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
-export const metadata: Metadata = { title: "refashionlab", description: "Beginner sewing, clothing repair, and upcycling guides.", icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" } };
+export const metadata: Metadata = { metadataBase: new URL("https://refashionlab.geraintx.chatgpt.site"), title: { default: "refashionlab — Beginner Sewing, Repair & Upcycling", template: "%s — refashionlab" }, description: "Beginner sewing, clothing repair, and upcycling guides.", alternates: { canonical: "/" }, icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" } };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="en"><body className={`${geistSans.variable} ${geistMono.variable}`}>{children}</body></html>;

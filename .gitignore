@@ -41,3 +41,8 @@ yarn-error.log*
 # Local source archives and locked packages are retained outside the deployable source history.
 imports/raw-content/original/*.rar
 content-prep/*.zip
+content-prep/*.tar.gz
+content/source/**/*.png
+content/source/**/*.jpg
+content/source/**/*.jpeg
+tsconfig.tsbuildinfo

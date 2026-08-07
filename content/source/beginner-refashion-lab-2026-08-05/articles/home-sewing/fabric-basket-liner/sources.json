@@ -1,0 +1,32 @@
+[
+  {
+    "source_type": "official_first_party",
+    "publisher": "U.S. Environmental Protection Agency",
+    "source_url": "https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/textiles-material-specific-data?jumpid=va_ww_mu_mk_hc_r12129_aw_x_10957",
+    "retrieved_at": "2026-08-05T12:00:00+08:00",
+    "freshness_status": "current",
+    "supports_claims": [
+      "Textile reuse and waste context; no claim that a single repair has a quantified environmental outcome."
+    ]
+  },
+  {
+    "source_type": "official_first_party",
+    "publisher": "U.S. Consumer Product Safety Commission",
+    "source_url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/childrens-products",
+    "retrieved_at": "2026-08-05T12:00:00+08:00",
+    "freshness_status": "current",
+    "supports_claims": [
+      "General safe-product and age-appropriate-material context."
+    ]
+  },
+  {
+    "source_type": "official_first_party",
+    "publisher": "Federal Trade Commission",
+    "source_url": "https://consumer.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+    "retrieved_at": "2026-08-05T12:00:00+08:00",
+    "freshness_status": "current",
+    "supports_claims": [
+      "Clear disclosure context for future affiliate product recommendations."
+    ]
+  }
+]

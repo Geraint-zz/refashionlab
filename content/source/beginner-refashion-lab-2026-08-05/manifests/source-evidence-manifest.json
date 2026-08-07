@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "fix-hole-in-jeans-by-hand",
+    "source_file": "articles/hand-sewing/fix-hole-in-jeans-by-hand/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "easy-tshirt-upcycles",
+    "source_file": "articles/old-t-shirt-upcycling/easy-tshirt-upcycles/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "old-jeans-into-tote-bag",
+    "source_file": "articles/denim-refashion/old-jeans-into-tote-bag/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "beginner-sewing-machine-projects",
+    "source_file": "articles/sewing-machine-basics/beginner-sewing-machine-projects/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "visible-mending-sweaters",
+    "source_file": "articles/visible-mending/visible-mending-sweaters/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "fabric-zipper-pouch",
+    "source_file": "articles/fabric-bags/fabric-zipper-pouch/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "easy-home-sewing-projects",
+    "source_file": "articles/home-sewing/easy-home-sewing-projects/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "read-a-sewing-pattern",
+    "source_file": "articles/beginner-patterns/read-a-sewing-pattern/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "best-beginner-sewing-supplies",
+    "source_file": "articles/sewing-tools/best-beginner-sewing-supplies/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "old-clothes-sewing-projects",
+    "source_file": "articles/before-after-projects/old-clothes-sewing-projects/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "hem-pants-without-machine",
+    "source_file": "articles/hand-sewing/hem-pants-without-machine/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "repair-torn-pocket",
+    "source_file": "articles/hand-sewing/repair-torn-pocket/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "sew-button-back-on",
+    "source_file": "articles/hand-sewing/sew-button-back-on/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "hand-sew-fabric-patch",
+    "source_file": "articles/hand-sewing/hand-sew-fabric-patch/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "tshirt-no-sew-tote",
+    "source_file": "articles/old-t-shirt-upcycling/tshirt-no-sew-tote/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "tshirt-patchwork-pillow",
+    "source_file": "articles/old-t-shirt-upcycling/tshirt-patchwork-pillow/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "tshirt-cleaning-cloths",
+    "source_file": "articles/old-t-shirt-upcycling/tshirt-cleaning-cloths/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "tshirt-sleeve-organizer",
+    "source_file": "articles/old-t-shirt-upcycling/tshirt-sleeve-organizer/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "denim-knee-patch",
+    "source_file": "articles/denim-refashion/denim-knee-patch/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "denim-apron-upcycle",
+    "source_file": "articles/denim-refashion/denim-apron-upcycle/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "denim-hem-guide",
+    "source_file": "articles/denim-refashion/denim-hem-guide/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "denim-pocket-wall-organizer",
+    "source_file": "articles/denim-refashion/denim-pocket-wall-organizer/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "sew-straight-seam",
+    "source_file": "articles/sewing-machine-basics/sew-straight-seam/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "easy-pillowcase-project",
+    "source_file": "articles/sewing-machine-basics/easy-pillowcase-project/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "fabric-napkins-beginner",
+    "source_file": "articles/sewing-machine-basics/fabric-napkins-beginner/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "simple-table-runner",
+    "source_file": "articles/sewing-machine-basics/simple-table-runner/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "visible-mending-small-holes",
+    "source_file": "articles/visible-mending/visible-mending-small-holes/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "visible-mending-denim",
+    "source_file": "articles/visible-mending/visible-mending-denim/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "darning-basics-beginners",
+    "source_file": "articles/visible-mending/darning-basics-beginners/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "mending-patch-puckering",
+    "source_file": "articles/visible-mending/mending-patch-puckering/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "easy-drawstring-bag",
+    "source_file": "articles/fabric-bags/easy-drawstring-bag/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "market-tote-bag",
+    "source_file": "articles/fabric-bags/market-tote-bag/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "scrap-fabric-gift-bag",
+    "source_file": "articles/fabric-bags/scrap-fabric-gift-bag/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "lunch-bag-liner",
+    "source_file": "articles/fabric-bags/lunch-bag-liner/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "envelope-pillow-cover",
+    "source_file": "articles/home-sewing/envelope-pillow-cover/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "curtain-hem-by-hand",
+    "source_file": "articles/home-sewing/curtain-hem-by-hand/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "fabric-basket-liner",
+    "source_file": "articles/home-sewing/fabric-basket-liner/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "simple-chair-pad-cover",
+    "source_file": "articles/home-sewing/simple-chair-pad-cover/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "print-sewing-pattern",
+    "source_file": "articles/beginner-patterns/print-sewing-pattern/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "take-body-measurements",
+    "source_file": "articles/beginner-patterns/take-body-measurements/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "fabric-layout-pattern",
+    "source_file": "articles/beginner-patterns/fabric-layout-pattern/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "choose-first-sewing-pattern",
+    "source_file": "articles/beginner-patterns/choose-first-sewing-pattern/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "choose-fabric-scissors",
+    "source_file": "articles/sewing-tools/choose-fabric-scissors/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "sewing-needles-guide",
+    "source_file": "articles/sewing-tools/sewing-needles-guide/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "seam-ripper-guide",
+    "source_file": "articles/sewing-tools/seam-ripper-guide/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "pressing-tools-guide",
+    "source_file": "articles/sewing-tools/pressing-tools-guide/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "shirt-to-apron-upcycle",
+    "source_file": "articles/before-after-projects/shirt-to-apron-upcycle/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "sweater-to-cushion-cover",
+    "source_file": "articles/before-after-projects/sweater-to-cushion-cover/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "jeans-to-tool-roll",
+    "source_file": "articles/before-after-projects/jeans-to-tool-roll/sources.json",
+    "source_count": 3
+  },
+  {
+    "slug": "scarf-to-headband",
+    "source_file": "articles/before-after-projects/scarf-to-headband/sources.json",
+    "source_count": 3
+  }
+]
