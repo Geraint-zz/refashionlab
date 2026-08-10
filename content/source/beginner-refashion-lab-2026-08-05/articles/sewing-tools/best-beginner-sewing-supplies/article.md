@@ -16,7 +16,7 @@ Gather only what the project needs: the item to be repaired or transformed, a wa
 
 ## Step 1: Define a modest finish
 
-Decide what 鈥渄one鈥?means before you start. For best beginner sewing supplies, write a short finish line: the hole is supported, the bag can carry a light load, the hem lies flat, or the pouch closes smoothly. A clear finish prevents the common beginner habit of adding details before the base is strong. Put the item on a flat surface, take a simple before photo for your own reference, and mark the area that will change. Leave extra fabric whenever possible. You can trim later; you cannot easily add back a piece that was cut too small.
+Decide what “done” means before you start. For best beginner sewing supplies, write a short finish line: the hole is supported, the bag can carry a light load, the hem lies flat, or the pouch closes smoothly. A clear finish prevents the common beginner habit of adding details before the base is strong. Put the item on a flat surface, take a simple before photo for your own reference, and mark the area that will change. Leave extra fabric whenever possible. You can trim later; you cannot easily add back a piece that was cut too small.
 
 ## Step 2: Test the technique on a scrap
 
