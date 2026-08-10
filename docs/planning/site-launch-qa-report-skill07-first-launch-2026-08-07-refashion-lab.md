@@ -37,6 +37,7 @@
 - pages.dev: `https://refashionlab.pages.dev/`
 - Root cause fixed locally: the Pages output now contains `dist/index.html` plus every known route index file.
 - The post-build adapter also copies client assets and writes the site `sitemap.xml` and `robots.txt`.
+- Cloudflare build-log blocker fixed: remove the stale `.wrangler/deploy/config.json` after static conversion so Pages does not resolve the deleted `dist/server/wrangler.json`.
 - Local `validate-data`, `check`, and `build`: PASS
 - pages.dev: pending redeploy and production recheck
 - robots.txt: pending redeploy and production recheck

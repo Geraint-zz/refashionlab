@@ -55,6 +55,10 @@ for (const route of routes) {
 }
 
 await rm(join(dist, "server"), { recursive: true, force: true });
+// Vinext creates a Wrangler deploy config for its server output. This build is
+// intentionally converted to static Pages output, so remove only that config
+// before Cloudflare Pages performs its post-build Wrangler configuration scan.
+await rm(join(root, ".wrangler", "deploy", "config.json"), { force: true });
 await writeFile(join(dist, ".assetsignore"), "*.map\n");
 stop();
 console.log(`Prepared ${routes.length - 2} HTML routes plus sitemap.xml and robots.txt for Cloudflare Pages.`);

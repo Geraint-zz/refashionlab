@@ -71,7 +71,8 @@
     "html_route_count": 68,
     "sitemap": "dist/sitemap.xml",
     "robots": "dist/robots.txt",
-    "worker_runtime": "not_required_for_static_content_routes"
+    "worker_runtime": "not_required_for_static_content_routes",
+    "wrangler_config_cleanup": "PASS_LOCAL"
   },
   "deployment": {
     "github_repository": "https://github.com/Geraint-zz/refashionlab.git",
