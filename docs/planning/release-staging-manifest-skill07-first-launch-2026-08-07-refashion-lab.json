@@ -80,13 +80,13 @@
     "cloudflare_pages_project_input": "b8cc5d9",
     "cloudflare_pages_project_identity": "UNRESOLVED_COMMIT_REFERENCE",
     "formal_domain": "pending",
-    "automatic_deploy": "READY_FOR_AUTOMATIC_REDEPLOY",
+    "automatic_deploy": "PASS",
     "pages_dev_url": "https://refashionlab.pages.dev/",
-    "pages_dev_parity": "PENDING_REDEPLOY",
-    "pages_dev_robots": "PENDING_REDEPLOY",
+    "pages_dev_parity": "PASS_ALL_CHECKED_ROUTES",
+    "pages_dev_robots": "PASS_SITE_ROBOTS",
     "formal_domain_parity": "BLOCKED_FORMAL_DOMAIN_PENDING",
-    "production_qa": "NOT_RUN"
+    "production_qa": "PAGES_DEV_PASS_FORMAL_DOMAIN_PENDING"
   },
-  "final_status": "WAITING_FOR_CLOUDFLARE_AUTOMATIC_DEPLOYMENT",
-  "next_gate": "Push the static adapter commit, wait for Pages automatic deployment, then rerun pages.dev and formal-domain DOM parity"
+  "final_status": "BLOCKED_FORMAL_DOMAIN_SEO_HOST_RETURN_TO_04",
+  "next_gate": "Provide the formal domain, then rerun formal-domain DOM parity and canonical verification"
 }

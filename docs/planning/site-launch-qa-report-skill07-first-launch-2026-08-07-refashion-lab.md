@@ -30,7 +30,7 @@
 
 ## Final status
 
-`WAITING_FOR_CLOUDFLARE_AUTOMATIC_DEPLOYMENT`
+`BLOCKED_FORMAL_DOMAIN_SEO_HOST_RETURN_TO_04`
 
 ## Cloudflare Pages QA
 
@@ -40,7 +40,7 @@
 - Cloudflare build-log blocker fixed: remove the stale `.wrangler/deploy/config.json` after static conversion so Pages does not resolve the deleted `dist/server/wrangler.json`.
 - Production follow-up fixed: write the root route to a file at `dist/index.html` instead of accidentally creating an `index.html/index.html` directory.
 - Local `validate-data`, `check`, and `build`: PASS
-- pages.dev: pending redeploy and production recheck
-- robots.txt: pending redeploy and production recheck
+- pages.dev: PASS on homepage, About, all four Legal pages, one Post route, sitemap, and robots
+- robots.txt: PASS; site robots output returned
 - Formal domain: pending; parity not run
-- Next gate: precise commit/push, wait for Cloudflare automatic deployment, then rerun production DOM parity
+- Next gate: provide the formal domain, then rerun formal-domain DOM parity and canonical verification
