@@ -23,6 +23,7 @@ const routes = [
 ];
 
 await cp(client, dist, { recursive: true, force: true });
+await rm(join(dist, "index.html"), { recursive: true, force: true });
 
 const npmCommand = process.platform === "win32" ? "npm.cmd" : "npm";
 const server = spawn(npmCommand, ["run", "start", "--", "--port", String(port)], {
@@ -49,7 +50,9 @@ for (const route of routes) {
   const body = await response.text();
   const output = route.endsWith(".xml") || route.endsWith(".txt")
     ? join(dist, route.slice(1))
-    : join(dist, route === "/" ? "index.html" : route.slice(1), "index.html");
+    : route === "/"
+      ? join(dist, "index.html")
+      : join(dist, route.slice(1), "index.html");
   await mkdir(dirname(output), { recursive: true });
   await writeFile(output, body);
 }

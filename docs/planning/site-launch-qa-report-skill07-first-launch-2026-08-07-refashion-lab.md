@@ -38,6 +38,7 @@
 - Root cause fixed locally: the Pages output now contains `dist/index.html` plus every known route index file.
 - The post-build adapter also copies client assets and writes the site `sitemap.xml` and `robots.txt`.
 - Cloudflare build-log blocker fixed: remove the stale `.wrangler/deploy/config.json` after static conversion so Pages does not resolve the deleted `dist/server/wrangler.json`.
+- Production follow-up fixed: write the root route to a file at `dist/index.html` instead of accidentally creating an `index.html/index.html` directory.
 - Local `validate-data`, `check`, and `build`: PASS
 - pages.dev: pending redeploy and production recheck
 - robots.txt: pending redeploy and production recheck
