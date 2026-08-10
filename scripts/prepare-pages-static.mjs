@@ -5,7 +5,7 @@ import { join, dirname } from "node:path";
 const root = process.cwd();
 const dist = join(root, "dist");
 const client = join(dist, "client");
-const port = 4323;
+const port = 4300 + (process.pid % 1000);
 const sections = JSON.parse(await readFile(join(root, "src/data/sections.json"), "utf8"));
 const categories = JSON.parse(await readFile(join(root, "src/data/categories.json"), "utf8"));
 const posts = JSON.parse(await readFile(join(root, "src/data/posts.json"), "utf8"));
