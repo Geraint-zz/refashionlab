@@ -39,17 +39,18 @@ nav a:hover{color:var(--rust);transform:translateY(-1px)}
 .split{display:flex;align-items:end;justify-content:space-between;gap:30px}
 .section-note{max-width:340px;margin:0;color:var(--muted);line-height:1.55}
 .path-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:42px}
-.path-card{position:relative;min-height:220px;padding:27px;border:1px solid var(--line);border-radius:22px;background:rgba(255,253,248,.78);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease,background .25s ease}
+.path-card{position:relative;min-height:220px;border:1px solid var(--line);border-radius:22px;background:rgba(255,253,248,.78);overflow:hidden;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease,background .25s ease}
 .path-card:hover{transform:translateY(-6px);background:var(--paper);border-color:#c9c2b4;box-shadow:var(--shadow)}
-.card-number{color:#a66e57;font-size:12px;font-weight:800;letter-spacing:.1em}
+.card-image{display:block;width:100%;height:142px;object-fit:cover;background:var(--sage-deep)}
+.card-copy{position:relative;padding:22px 27px 25px}.card-number{color:#a66e57;font-size:12px;font-weight:800;letter-spacing:.1em}
 .path-card h3{margin:56px 0 10px;font-size:25px;letter-spacing:-.05em}
 .path-card p,.section-card p,.guide p{margin:0;color:var(--muted);line-height:1.5;font-size:14px}
 .arrow{position:absolute;right:25px;top:25px;font-size:18px;transition:transform .2s ease,color .2s ease}
 .path-card:hover .arrow{transform:translate(4px,-4px);color:var(--rust)}
 .section-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:42px}
-.section-card{min-height:330px;padding:28px;border-radius:22px;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}
+.section-card{min-height:330px;border-radius:22px;display:flex;flex-direction:column;overflow:hidden;transition:transform .25s ease,box-shadow .25s ease}
 .section-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
-.section-card span,.guide span{font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:800}
+.section-card-copy{padding:24px 28px 28px;display:flex;flex:1;flex-direction:column}.section-card span,.guide span{font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:800}
 .section-card h3{margin:auto 0 10px;font-size:34px;letter-spacing:-.07em;line-height:.94}
 .section-card b{margin-top:27px;font-size:13px;transition:transform .2s ease}
 .section-card:hover b{transform:translateX(4px)}
